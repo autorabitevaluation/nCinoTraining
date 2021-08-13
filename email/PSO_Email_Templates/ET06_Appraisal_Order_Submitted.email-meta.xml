@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify approvers that an Appraisal Order has been submitted for review.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET06 - Appraisal Order Submitted</name>
+    <style>freeForm</style>
+    <subject>*** An Appraisal Order for Loan {!LLC_BI__Loan__c.Name} has been Submitted for Your Review ***</subject>
+    <textOnly>An Appraisal Order has been submitted for Loan {!LLC_BI__Loan__c.Name}.
+
+Borrower: {!LLC_BI__Loan__c.LLC_BI__Account__c}
+Loan Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+Closing Date: {!LLC_BI__Loan__c.LLC_BI__CloseDate__c}
+
+Officer Comments and Requests: {!LLC_BI__Loan__c.LLC_BI__Officer_Comments__c}
+
+For details regarding this appraisal order: {!LLC_BI__Loan__c.Link}
+
+nCino
+
+
+
+ET06</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

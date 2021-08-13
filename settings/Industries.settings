@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IndustriesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowMultipleProducersToWorkOnSamePolicy>false</allowMultipleProducersToWorkOnSamePolicy>
+    <createCustomerPropertyFromLAProperty>false</createCustomerPropertyFromLAProperty>
+    <createFSCAssetFromLAAsset>false</createFSCAssetFromLAAsset>
+    <createFSCAssetFromLAProperty>false</createFSCAssetFromLAProperty>
+    <createFSCLiabilityFromLAFinancial>false</createFSCLiabilityFromLAFinancial>
+    <createFSCLiabilityFromLALiability>false</createFSCLiabilityFromLALiability>
+    <createFinancialAccountFromLAAsset>false</createFinancialAccountFromLAAsset>
+    <createFinancialAccountFromLALiability>false</createFinancialAccountFromLALiability>
+    <createFinancialAccountsFromLAFinancials>false</createFinancialAccountsFromLAFinancials>
+    <createFinancialAccountsFromLAProperty>false</createFinancialAccountsFromLAProperty>
+    <enableAccessToMasterListOfCoverageTypes>false</enableAccessToMasterListOfCoverageTypes>
+    <enableAccountScoreEnabled>false</enableAccountScoreEnabled>
+    <enableCalculationUsingParentPolicyOnly>false</enableCalculationUsingParentPolicyOnly>
+    <enableCompliantDataSharingForAccount>false</enableCompliantDataSharingForAccount>
+    <enableCompliantDataSharingForOpportunity>false</enableCompliantDataSharingForOpportunity>
+    <enableDealManagement>false</enableDealManagement>
+    <enableFSCInsuranceReport>false</enableFSCInsuranceReport>
+    <enableFinancialDealRoleHierarchy>false</enableFinancialDealRoleHierarchy>
+    <enableInteractionRoleHierarchy>false</enableInteractionRoleHierarchy>
+    <enableInteractionSummaryPref>false</enableInteractionSummaryPref>
+    <enableInteractionSummaryRoleHierarchy>false</enableInteractionSummaryRoleHierarchy>
+    <enableManyToManyRelationships>false</enableManyToManyRelationships>
+    <enableMortgageRlaTotalsOrgPref>true</enableMortgageRlaTotalsOrgPref>
+    <enableRBLUsingCalcService>false</enableRBLUsingCalcService>
+    <enableRecordRollup>false</enableRecordRollup>
+    <loanApplicantAddressAutoCreation>false</loanApplicantAddressAutoCreation>
+    <loanApplicantAutoCreation>false</loanApplicantAutoCreation>
+    <transformRBLtoDPE>false</transformRBLtoDPE>
+</IndustriesSettings>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to alert that loan is maturing in 90 days</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET26 - Loan Maturity Date in 90 Days</name>
+    <style>freeForm</style>
+    <subject>*** Loan Maturing in 90 Days - Loan &quot;{!LLC_BI__Loan__c.Name}&quot; ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+{!LLC_BI__Loan__c.Name} is going to mature in 90 days, on {!LLC_BI__Loan__c.LLC_BI__Maturity_Date__c}.
+
+Click here to view full Loan Details: {!LLC_BI__Loan__c.Link}
+
+nCino
+
+ET26</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

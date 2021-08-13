@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify users that a loan has been officially booked to the core</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET17 - Loan Booked</name>
+    <style>freeForm</style>
+    <subject>*** Loan {!LLC_BI__Loan__c.Name} has Closed ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+Loan {!LLC_BI__Loan__c.Name} has closed.
+
+Relationship: {!LLC_BI__Loan__c.LLC_BI__Account__c}
+
+Loan Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+Loan Close Date: {!LLC_BI__Loan__c.LLC_BI__CloseDate__c}
+
+Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+
+Loan Officer: {!LLC_BI__Loan__c.LLC_BI__Loan_Officer__c}
+
+Click here for Full Loan Details: {!LLC_BI__Loan__c.Link}
+
+nCino
+
+ET17</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

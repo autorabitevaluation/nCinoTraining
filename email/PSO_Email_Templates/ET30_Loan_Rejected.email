@@ -1,0 +1,21 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<font face="arial"><span style="font-size: 12pt;">Hello&nbsp;</span></font><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; background-color: rgb(255, 255, 255);">{!Organization.Name}&nbsp;</span><font face="arial"><span style="font-size: 12pt;">Team Member,
+</span></font><br>
+<br><font face="arial"><span style="font-size: 12pt;">Loan "{!LLC_BI__Loan__c.Name}" has been Rejected at this time. You 
+may simply need to add/update information or the loan may need to be 
+declined. 
+</span></font><br>
+<br><font face="arial"><span style="font-size: 12pt;">Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+</span></font><br><font face="arial"><span style="font-size: 12pt;">Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+</span></font><br><font face="arial"><span style="font-size: 12pt;">Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+</span></font><br><font face="arial"><span style="font-size: 12pt;">Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+</span></font><br>
+<br><font face="arial"><span style="font-size: 12pt;">Loan Officer: {!LLC_BI__Loan__c.LLC_BI__Loan_Officer__c} 
+</span></font><br>
+<br><span style="font-family: arial; font-size: 16px; background-color: rgb(255, 255, 255);">Rejected by: &nbsp;{!ApprovalRequest.Process_Approver}</span><div style="font-family: arial; font-size: 16px;"><br></div><div style="font-family: arial; font-size: 16px;">Rejection Comments: &nbsp;{!ApprovalRequest.Comments}</div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Click here for complete Loan Details {!LLC_BI__Loan__c.Link}.
+<br>
+<br>nCino<div><br></div><div style="text-align: right;">ET30</div></div>]]></td>
+</tr>
+</table>

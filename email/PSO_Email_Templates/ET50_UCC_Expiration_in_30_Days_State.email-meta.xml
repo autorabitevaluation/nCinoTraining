@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify of state UCC Expiration in 30 Days</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET50 - UCC Expiration in 30 Days (State)</name>
+    <style>freeForm</style>
+    <subject>*** UCC Expiration in 30 Days - State ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+UCC Expiration for Collateral {!LLC_BI__Loan_Collateral__c.LLC_BI__UCC_Expiration_State__c} is in 30 Days.
+
+State UCC Expiration Date: {!LLC_BI__Loan_Collateral__c.LLC_BI__UCC_Expiration_State__c}
+
+For more details: {!LLC_BI__Loan_Collateral__c.Link}
+
+nCino
+
+ET50</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

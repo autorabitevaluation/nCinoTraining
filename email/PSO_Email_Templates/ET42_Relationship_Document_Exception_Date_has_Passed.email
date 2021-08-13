@@ -1,0 +1,11 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div><br></div><div><br></div><div><br></div><div>Hello&nbsp;<span style="background-color: rgb(255, 255, 255); font-size: 12pt;">{!Organization.Name} Team Member,</span></div><div><br></div>A Relationship Document Exception Date for Relationship {!Account.Name} has passed.
+<br>
+<br>Document Name: {!LLC_BI__AccountDocument__c.Name}
+<br>Exception Date: {!LLC_BI__AccountDocument__c.LLC_BI__exceptionDate__c}
+<br>
+<br>Click here for full details:  {!Account.Link}.<div><br></div><div>nCino</div><div><br></div><div style="text-align: right;">ET42</div>]]></td>
+</tr>
+</table>

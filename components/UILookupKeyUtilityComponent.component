@@ -1,0 +1,98 @@
+<apex:component allowDML="true" layout="none" controller="UserInterfaceLookupKeyUtility">
+    
+    <style type="text/css">
+    .rich-tabpanel-content { background-color: white; }
+    .bPageBlock { background-color: white; }
+    .pbBody { background-color: white; }
+    .colStyle { width:16% }
+    .activeTab {background-color: #236FBD; color:white; background-image:none; font-size:20px; letter-spacing:-1px; line-height: 40px;}
+    .inactiveTab { background-color: lightgrey; color:black; background-image:none}
+    .missingKeys { color: red; }
+    .noMissingKeys { color: green; }
+    </style> 
+    
+    <apex:pageBlock id="pgbk1" mode="detail">
+        <apex:pageBlockSection id="pgbk1_1" title="Analyze" columns="1">
+            <apex:outputText value="When cloning a Group, some objects require unique lookupKey values for proper cloning.  Click the button below
+            to analyze lookupKeys on objects for which lookupKeys are required and optional." label="Note:" /> 
+            <apex:commandButton id="mainbutton" value="Analyze LookupKeys" style="colStyle4" action="{!analyzeKeys}" />
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+    <apex:pageMessages />
+    
+    <apex:pageBlock id="pgbk3" mode="maindetail" rendered="{!showRequiredObjects}">
+        <apex:pageBlockSection id="pgbk1_3" title="LookupKeys Required" columns="1">
+            <apex:panelGrid columns="3" width="100%" styleClass="table table-bordered">
+                <apex:outputLabel value="OBJECT" style="font-weight:800;" />
+                <apex:outputLabel value="MISSING LOOKUPKEYS" style="font-weight:800;" />
+                <apex:outputLabel value="OUT OF" style="font-weight:800;" />           
+                
+                <apex:outputLabel value="Screen" />
+                <apex:outputText title="Screen" value="{!missingKeysScreens}" styleClass="missingKeys" rendered="{!IF(missingKeysScreens > 0, true, false)}" />
+                <apex:outputText title="Screen" value="{!missingKeysScreens}" styleClass="noMissingKeys" rendered="{!IF(missingKeysScreens = 0, true, false)}" />
+                <apex:outputText title="Screen" value="{!totalNumberScreens}" />
+                
+                <apex:outputLabel value="Screen Section" />
+                <apex:outputText title="Screen Section" value="{!missingKeysScreenSections}" styleClass="missingKeys" rendered="{!IF(missingKeysScreenSections > 0, true, false)}" />
+                <apex:outputText title="Screen Section" value="{!missingKeysScreenSections}" styleClass="noMissingKeys" rendered="{!IF(missingKeysScreenSections = 0, true, false)}" />
+                <apex:outputText title="Screen Section" value="{!totalNumberScreenSections}" />
+
+                <apex:outputLabel value="Section Configuration" />
+                <apex:outputText title="Section Configuration" value="{!missingKeysSectionConfigs}" styleClass="missingKeys" rendered="{!IF(missingKeysSectionConfigs > 0, true, false)}" />
+                <apex:outputText title="Section Configuration" value="{!missingKeysSectionConfigs}" styleClass="noMissingKeys" rendered="{!IF(missingKeysSectionConfigs = 0, true, false)}" />
+                <apex:outputText title="Section Configuration" value="{!totalNumberKeysSectionConfigs}" />
+                
+                <apex:outputLabel value="Screen View" />
+                <apex:outputText title="Screen View" value="{!missingKeysScreenViews}" styleClass="missingKeys" rendered="{!IF(missingKeysScreenViews > 0, true, false)}" />
+                <apex:outputText title="Screen View" value="{!missingKeysScreenViews}" styleClass="noMissingKeys" rendered="{!IF(missingKeysScreenViews = 0, true, false)}" />
+                <apex:outputText title="Screen View" value="{!totalNumberScreenViews}" />
+                
+                <apex:outputLabel value="Layout" />
+                <apex:outputText title="Layout" value="{!missingKeysLayouts}" styleClass="missingKeys" rendered="{!IF(missingKeysLayouts > 0, true, false)}" />
+                <apex:outputText title="Layout" value="{!missingKeysLayouts}" styleClass="noMissingKeys" rendered="{!IF(missingKeysLayouts = 0, true, false)}" />
+                <apex:outputText title="Layout" value="{!totalNumberLayouts}" />
+            </apex:panelGrid>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+      
+    
+    <apex:pageBlock id="pgbk4" mode="maindetail" rendered="{!showOptionalObjects}">
+        <apex:pageBlockSection id="pgbk1_4" title="LookupKeys Optional" columns="1">
+            <apex:panelGrid columns="3" width="100%" styleClass="table table-bordered">
+                <apex:outputLabel value="OBJECT" style="font-weight:800;" />
+                <apex:outputLabel value="MISSING LOOKUPKEYS" style="font-weight:800;" />
+                <apex:outputLabel value="OUT OF" style="font-weight:800;" />
+                
+                <apex:outputLabel value="Group" />
+                <apex:outputText title="Group" value="{!missingKeysGroups}" styleClass="missingKeys" rendered="{!IF(missingKeysGroups > 0, true, false)}" />
+                <apex:outputText title="Group" value="{!missingKeysGroups}" styleClass="noMissingKeys" rendered="{!IF(missingKeysGroups = 0, true, false)}" />
+                <apex:outputText title="Group" value="{!totalNumberGroups}" />
+                
+                <apex:outputLabel value="Route" />
+                <!-- <apex:outputText title="Route" value="{!missingKeysRoutes}" /> -->
+                <apex:outputText title="Route" value="{!missingKeysRoutes}" styleClass="missingKeys" rendered="{!IF(missingKeysRoutes > 0, true, false)}" />
+                <apex:outputText title="Route" value="{!missingKeysRoutes}" styleClass="noMissingKeys" rendered="{!IF(missingKeysRoutes = 0, true, false)}" />
+                <apex:outputText title="Route" value="{!totalNumberRoutes}" />
+
+                <apex:outputLabel value="Route Group" />
+                <apex:outputText title="Route Group" value="{!missingKeysRouteGroups}" styleClass="missingKeys" rendered="{!IF(missingKeysRouteGroups > 0, true, false)}" />
+                <apex:outputText title="Route Group" value="{!missingKeysRouteGroups}" styleClass="noMissingKeys" rendered="{!IF(missingKeysRouteGroups = 0, true, false)}" />
+                <apex:outputText title="Route Group" value="{!totalNumberRouteGroups}" />
+                
+                <apex:outputLabel value="Field Configuration" />
+                <apex:outputText title="Field Configuration" value="{!missingKeysFieldConfigs}" styleClass="missingKeys" rendered="{!IF(missingKeysFieldConfigs > 0, true, false)}" />
+                <apex:outputText title="Field Configuration" value="{!missingKeysFieldConfigs}" styleClass="noMissingKeys" rendered="{!IF(missingKeysFieldConfigs = 0, true, false)}" />
+                <apex:outputText title="Field Configuration" value="{!totalNumberFieldConfigs}" />
+            </apex:panelGrid>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+    <apex:pageBlock id="pgbk5" mode="maindetail" rendered="{!missingKeys}">
+        <apex:pageBlockSection id="pgbk1_5" columns="1">
+            <apex:outputLabel value="It is recommended to assign unique lookupKeys to all records.  Use the below button to assign lookupKeys." /> 
+            <apex:commandButton id="mainbutton" value="Assign LookupKeys" style="colStyle4" action="{!assignKeys}" />
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+</apex:component>

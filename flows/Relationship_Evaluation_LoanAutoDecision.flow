@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <description>Add Scorecard Details Records to the Collection of ScorecardDetails</description>
+        <name>Add_Scorecard_Details</name>
+        <label>Add Scorecard Details</label>
+        <locationX>930</locationX>
+        <locationY>126</locationY>
+        <assignmentItems>
+            <assignToReference>ScorecardDetails</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>DSCR_ScorecardDetails</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>ScorecardDetails</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Exposure_ScorecardDetails</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <description>Updates Assigned Points with 0 for fail. 
+
+Criteria Vars&apos;s updates DSCR scorecard with values from decision.</description>
+        <name>DSCR_Fail</name>
+        <label>DSCR - Fail</label>
+        <locationX>787</locationX>
+        <locationY>212</locationY>
+        <assignmentItems>
+            <assignToReference>AssignedPoints</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>DSCR_ScorecardDetails.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>DSCR</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>DSCR_ScorecardDetails.LLC_BI__Value__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>PrimaryAccount.LLC_BI__Debt_Service_Coverage__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>DSCR_ScorecardDetails.LLC_BI__Assigned_Points__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>DSCR_ScorecardDetails.LLC_BI__Maximum_Points__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_Scorecard_Details</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Updates Assigned Points with +1 for pass. 
+
+Criteria Vars&apos;s updates DSCR scorecard with values from decision.</description>
+        <name>DSCR_Pass</name>
+        <label>DSCR - Pass</label>
+        <locationX>783</locationX>
+        <locationY>51</locationY>
+        <assignmentItems>
+            <assignToReference>AssignedPoints</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>DSCR_ScorecardDetails.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>DSCR</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>DSCR_ScorecardDetails.LLC_BI__Value__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>PrimaryAccount.LLC_BI__Debt_Service_Coverage__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>DSCR_ScorecardDetails.LLC_BI__Assigned_Points__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>DSCR_ScorecardDetails.LLC_BI__Maximum_Points__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_Scorecard_Details</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Updates Assigned Points with 0 for fail. 
+
+Criteria Vars&apos;s updates exposure scorecard with values from decision.</description>
+        <name>Exposure_Fail</name>
+        <label>Exposure - Fail</label>
+        <locationX>409</locationX>
+        <locationY>218</locationY>
+        <assignmentItems>
+            <assignToReference>AssignedPoints</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Exposure_ScorecardDetails.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>DirectExposure</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Exposure_ScorecardDetails.LLC_BI__Assigned_Points__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Exposure_ScorecardDetails.LLC_BI__Maximum_Points__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Exposure_ScorecardDetails.LLC_BI__Value__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>PrimaryAccount.LLC_BI__Direct_Exposure__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Evaluate_DSCR</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Updates Assigned Points with +1 for pass. 
+
+Criteria Vars&apos;s updates exposure scorecard with values from decision.</description>
+        <name>Exposure_Pass</name>
+        <label>Exposure - Pass</label>
+        <locationX>405</locationX>
+        <locationY>55</locationY>
+        <assignmentItems>
+            <assignToReference>AssignedPoints</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Exposure_ScorecardDetails.LLC_BI__Assigned_Points__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Exposure_ScorecardDetails.LLC_BI__Maximum_Points__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Exposure_ScorecardDetails.LLC_BI__Value__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>PrimaryAccount.LLC_BI__Direct_Exposure__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Exposure_ScorecardDetails.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>DirectExposure</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Evaluate_DSCR</targetReference>
+        </connector>
+    </assignments>
+    <constants>
+        <description>Direct Exposure</description>
+        <name>DirectExposure</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Direct Exposure</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <description>DSCR</description>
+        <name>DSCR</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>DSCR</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <description>Decision for DSCR based on customer requirements.</description>
+        <name>Evaluate_DSCR</name>
+        <label>Evaluate - DSCR</label>
+        <locationX>555</locationX>
+        <locationY>138</locationY>
+        <defaultConnector>
+            <targetReference>DSCR_Fail</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Below DSCR Threshold</defaultConnectorLabel>
+        <rules>
+            <name>Above_DSCR_Threshold</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>PrimaryAccount.LLC_BI__Debt_Service_Coverage__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PrimaryAccount.LLC_BI__Debt_Service_Coverage__c</leftValueReference>
+                <operator>GreaterThanOrEqualTo</operator>
+                <rightValue>
+                    <numberValue>1.25</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>DSCR_Pass</targetReference>
+            </connector>
+            <label>Above DSCR Threshold</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Decision for Exposure based on customer requirements.</description>
+        <name>Evaluate_Exposure</name>
+        <label>Evaluate Exposure</label>
+        <locationX>160</locationX>
+        <locationY>142</locationY>
+        <defaultConnector>
+            <targetReference>Exposure_Fail</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Outside Exposure Threshold</defaultConnectorLabel>
+        <rules>
+            <name>Within_Exposure_Threshold</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>PrimaryAccount.LLC_BI__Direct_Exposure__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>PrimaryAccount.LLC_BI__Direct_Exposure__c</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <numberValue>50000.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Exposure_Pass</targetReference>
+            </connector>
+            <label>Within Exposure Threshold</label>
+        </rules>
+    </decisions>
+    <description>Evaluate Primary Relationship from Loan</description>
+    <interviewLabel>Relationship_Evaluation_LoanAutoDecision {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Relationship_Evaluation_LoanAutoDecision</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <startElementReference>Evaluate_Exposure</startElementReference>
+    <status>Active</status>
+    <variables>
+        <description>Hold Assigned Points to pass back to master flow</description>
+        <name>AssignedPoints</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>Holds DSCR scorecard Details</description>
+        <name>DSCR_ScorecardDetails</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>LLC_BI__Scorecard_Detail__c</objectType>
+    </variables>
+    <variables>
+        <description>Hold individual Scorecard Detail related to Exposure</description>
+        <name>Exposure_ScorecardDetails</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>LLC_BI__Scorecard_Detail__c</objectType>
+    </variables>
+    <variables>
+        <description>Holds data related to Primary Account on Loan</description>
+        <name>PrimaryAccount</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Account</objectType>
+    </variables>
+    <variables>
+        <description>Hold details about the Scorecard Detail Object</description>
+        <name>ScorecardDetails</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <objectType>LLC_BI__Scorecard_Detail__c</objectType>
+    </variables>
+</Flow>

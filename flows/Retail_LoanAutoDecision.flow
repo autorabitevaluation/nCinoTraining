@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <description>Handles all decisioning related to Product Line of Retail or equivalent.</description>
+    <interviewLabel>Retail_LoanAutoDecision {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Retail_LoanAutoDecision</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <startElementReference>Evaluate_Primary_Relationship</startElementReference>
+    <status>Active</status>
+    <subflows>
+        <description>Evaluate Primary Relationship sub flow</description>
+        <name>Evaluate_Primary_Relationship</name>
+        <label>Evaluate Primary Relationship</label>
+        <locationX>50</locationX>
+        <locationY>229</locationY>
+        <flowName>Relationship_Evaluation_LoanAutoDecision</flowName>
+        <inputAssignments>
+            <name>PrimaryAccount</name>
+            <value>
+                <elementReference>PrimaryAccount</elementReference>
+            </value>
+        </inputAssignments>
+        <outputAssignments>
+            <assignToReference>AssignedPoints</assignToReference>
+            <name>AssignedPoints</name>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>Details</assignToReference>
+            <name>ScorecardDetails</name>
+        </outputAssignments>
+    </subflows>
+    <variables>
+        <name>AssignedPoints</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <description>Holds Credit Request Object Data</description>
+        <name>CreditRequest</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>nFUSE__Credit_Report__c</objectType>
+    </variables>
+    <variables>
+        <description>Holds Description Approved value from Master Flow Constant</description>
+        <name>Description_Approved</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Holds Description Decline value from Master Flow Constant</description>
+        <name>Description_Decline</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Holds Description Manual Review Required value from Master Flow Constant</description>
+        <name>Description_Manual_Review_Required</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Holds Description Recommend Approval value from Master Flow Constant</description>
+        <name>Description_Recommend_Approval</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Holds Description Recommend Decline value from Master Flow Constant</description>
+        <name>Description_Recommend_Decline</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>Details</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <objectType>LLC_BI__Scorecard_Detail__c</objectType>
+    </variables>
+    <variables>
+        <description>Holds Loan Information from parent Flow</description>
+        <name>loanInformation</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>LLC_BI__Loan__c</objectType>
+    </variables>
+    <variables>
+        <name>MaximumPoints</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <description>Holds Primary Account from master flow</description>
+        <name>PrimaryAccount</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Account</objectType>
+    </variables>
+    <variables>
+        <description>Hold Result of Decision</description>
+        <name>Result</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <description>Holds Result Auto Approve value from Master Flow Constant</description>
+        <name>ResultAutoApprove</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Holds Result Auto Decline value from Master Flow Constant</description>
+        <name>ResultAutoDecline</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Hold Result Description of Decision</description>
+        <name>ResultDescription</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <description>Holds Result Information Requested value from Master Flow Constant</description>
+        <name>ResultInformationRequested</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Holds Result Information Required value from Master Flow Constant</description>
+        <name>ResultInformationRequired</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Holds Result Manual Review Required value from Master Flow Constant</description>
+        <name>ResultManualReviewRequired</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Holds Result Recommend Approve value from Master Flow Constant</description>
+        <name>ResultRecommendApproval</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Holds Result Recommend Decline value from Master Flow Constant</description>
+        <name>ResultRecommendDecline</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

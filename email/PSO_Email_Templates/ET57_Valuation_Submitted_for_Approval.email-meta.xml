@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notifiy Valuation(Inspection) was submitted</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET57 - Valuation Submitted for Approval</name>
+    <style>freeForm</style>
+    <subject>***{!LLC_BI__Valuation__c.Name} has been Submitted for Approval ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+&quot;{!LLC_BI__Valuation__c.Name}&quot; has been Submitted for Review.
+
+Please use this link to visit the Valuation:
+{!LLC_BI__Valuation__c.Link}
+
+
+
+
+nCino
+ET57</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

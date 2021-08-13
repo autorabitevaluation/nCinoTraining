@@ -1,0 +1,21 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Hello {!Organization.Name} Team Member,
+<br>
+<br>Loan "{!LLC_BI__Loan__c.Name}" was declined and 2nd Level Review is 
+now complete. The Loan was declined for the following reasons:
+<br> 
+<br>1) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_1__c} 
+<br>2) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_2__c} 
+<br>3) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_3__c} 
+<br>4) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_4__c} 
+<br>
+<br><span style="background-color: rgb(255, 255, 255);">Declined by: &nbsp;{!ApprovalRequest.Process_Approver}</span><div><br></div><div>Declination Comments: &nbsp;{!ApprovalRequest.Comments}</div><div><br></div><div>The Declination Process is now final. Any required Adverse Action notices should be prepared and sent at this time.
+<br> 
+<br><div><span style="font-size: 12pt;">You can access the Loan details here: {!LLC_BI__Loan__c.Link}&nbsp;</span></div><div>
+<br>You can access the Adverse Action details here: {!LLC_BI__Adverse_Action__c.Link}
+<br> 
+<br>nCino<div><br></div><div style="text-align: right;">ET01</div></div></div>]]></td>
+</tr>
+</table>

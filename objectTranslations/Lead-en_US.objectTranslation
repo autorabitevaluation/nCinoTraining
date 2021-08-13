@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- CorrelationID --></label>
+        <name>CorrelationID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correlation Data --></label>
+        <name>Correlation_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Desired Loan Amount --></label>
+        <name>Desired_Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please denote if this is a Test Record. --></help>
+        <label><!-- Is this a Test? --></label>
+        <name>Is_this_a_Test__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>LLC_BI__Branch__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>LLC_BI__CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt In --></label>
+        <name>LLC_BI__Email_Opt_In__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is an example of a custom multi-select picklist where you can select multiple options. --></help>
+        <label><!-- Interest --></label>
+        <name>LLC_BI__Interest__c</name>
+        <picklistValues>
+            <masterLabel>Product 1</masterLabel>
+            <translation><!-- Product 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product 2</masterLabel>
+            <translation><!-- Product 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product 3</masterLabel>
+            <translation><!-- Product 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation><!-- Services --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Detail --></label>
+        <name>LLC_BI__Lead_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Priority --></label>
+        <name>LLC_BI__Lead_Priority__c</name>
+        <picklistValues>
+            <masterLabel>Cold</masterLabel>
+            <translation><!-- Cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation><!-- Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Specifics --></label>
+        <name>LLC_BI__Lead_Specifics__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Status Detail --></label>
+        <name>LLC_BI__Lead_Status_Detail__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of the opportunity, whether it&apos;s a loan, deposit, etc. --></help>
+        <label><!-- Opportunity Amount --></label>
+        <name>LLC_BI__Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loan Type --></label>
+        <name>LLC_BI__Loan_Type__c</name>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation><!-- Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion</masterLabel>
+            <translation><!-- Expansion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation><!-- Refinance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation><!-- Relocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start-up</masterLabel>
+            <translation><!-- Start-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Startup</masterLabel>
+            <translation><!-- Startup --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Converted Lead --></label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel><!-- Converted Lead --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mobile Phone --></label>
+        <name>LLC_BI__Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>LLC_BI__NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>LLC_BI__Primary__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Interest --></label>
+        <name>LLC_BI__ProductInterest__c</name>
+        <picklistValues>
+            <masterLabel>GC1000 series</masterLabel>
+            <translation><!-- GC1000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3000 series</masterLabel>
+            <translation><!-- GC3000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5000 series</masterLabel>
+            <translation><!-- GC5000 series --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Product Line Lookup</label>
+        <name>LLC_BI__Product_Line_Reference__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>LLC_BI__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Package --></label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Product Lookup</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Product Type Lookup</label>
+        <name>LLC_BI__Product_Type_Reference__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>LLC_BI__Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Non-Real Estate</masterLabel>
+            <translation><!-- Non-Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation><!-- Real Estate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>LLC_BI__Product__c</name>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HELOC</masterLabel>
+            <translation><!-- HELOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Credit</masterLabel>
+            <translation><!-- Line of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation><!-- Purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Loan</masterLabel>
+            <translation><!-- Term Loan --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Referred To --></label>
+        <name>LLC_BI__Referred_To__c</name>
+        <picklistValues>
+            <masterLabel>BofA</masterLabel>
+            <translation><!-- BofA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPC</masterLabel>
+            <translation><!-- PPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation><!-- US Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation><!-- Wells Fargo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Revenue --></label>
+        <name>LLC_BI__Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Code --></label>
+        <name>LLC_BI__SICCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Status Icon --></label>
+        <name>Lead_Status_Icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loan Purpose --></label>
+        <name>Loan_Purpose__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field should  not be on the layout. It is a custom field used in the custom Product Package Convert button. --></help>
+        <label><!-- Related Lead --></label>
+        <name>Related_Lead__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Web Source --></label>
+        <name>Web_Source__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Select for a New Loan Opportunity --></description>
+        <label><!-- Loan --></label>
+        <name>LLC_BI__Loan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Select for a New Treasury Management Opportunity --></description>
+        <label><!-- Treasury Management --></label>
+        <name>LLC_BI__Treasury_Management</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_to_Product_Package --></label>
+        <name>Convert_to_Product_Package</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_to_nCino --></label>
+        <name>Convert_to_nCino</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert --></label>
+        <name>LLC_BI__Convert</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_to_Product_Package --></label>
+        <name>LLC_BI__Convert_to_Product_Package</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

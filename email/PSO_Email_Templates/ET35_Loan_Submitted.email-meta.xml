@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify approvers that a loan has been submitted for their review and approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET35 - Loan Submitted</name>
+    <style>freeForm</style>
+    <subject>*** Loan {!LLC_BI__Loan__c.Name} has been Submitted to you for Approval ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+Loan &quot;{!LLC_BI__Loan__c.Name}&quot; has been submitted to you for Approval. Please use this link to visit the loan page: {!LLC_BI__Loan__c.Link}.
+
+After you have reviewed the loan, hover over &quot;Approval History&quot; at the top of the page.  Then click on Approve/Reject.  On the next page, enter your comments and either Approve, or Reject, the loan.
+
+Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+
+Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+
+Estimated Close Date: {!LLC_BI__Loan__c.LLC_BI__CloseDate__c}
+Loan Officer: {!LLC_BI__Loan__c.LLC_BI__Loan_Officer__c}
+
+nCino
+
+ET35</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

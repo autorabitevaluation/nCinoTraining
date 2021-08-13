@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><br></div><div><br></div>The Appraisal Request for {!LLC_BI__Loan__c.Name} has been approved and ordered
+<br>
+<br><span style="background-color: rgb(255, 255, 255);">Approved by: &nbsp;{!ApprovalRequest.Process_Approver}</span><div><br></div><div>Approval Comments: &nbsp;{!ApprovalRequest.Comments}</div><div><br></div><div>Borrower:  {!LLC_BI__Loan__c.LLC_BI__Account__c}<br>Loan Amount:  {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+<br>Closing Date:  {!LLC_BI__Loan__c.LLC_BI__CloseDate__c}
+<br>
+<br>Officer Comments and Requests: {!LLC_BI__Loan__c.LLC_BI__Officer_Comments__c}<br>
+<br>For details regarding this appraisal order:  {!LLC_BI__Loan__c.Link}
+<br>
+<br>You will be notified via Email when the Appraisal has been Received / Delivered.<div><br></div><div>nCino</div><div><br></div><div style="text-align: right;">ET04</div></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used when a loan is declined and requires 2nd level review</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET03 - Adverse Action Submitted</name>
+    <style>freeForm</style>
+    <subject>*** Loan: &quot;{!LLC_BI__Loan__c.Name}&quot; has been submitted for Declination ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+Loan &quot;{!LLC_BI__Loan__c.Name}&quot; was potentially Declined and now requires 2nd Level Review. Initial reasons are:
+
+1) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_1__c}
+2) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_2__c}
+3) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_3__c}
+4) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_4__c}
+
+If you agree with this decision, please complete 2nd Level Review and Approve this Adverse Action.
+
+Should you disagree, please provide feedback in the Comments sections and Reject this request.
+
+You can access the Loan details here: {!LLC_BI__Loan__c.Link}
+
+You can access the Adverse Action details here: {!LLC_BI__Adverse_Action__c.Link}
+
+nCino
+
+ET03</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

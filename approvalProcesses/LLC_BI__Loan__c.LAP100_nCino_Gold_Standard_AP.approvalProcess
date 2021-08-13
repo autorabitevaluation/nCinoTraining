@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>allInternalUsers</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Loan_Approval_Queue</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <formula>AND(
+NOT(ISBLANK(LLC_BI__Product_Package__r.Approver_1__c)),
+LLC_BI__Product_Package__r.cm_Send_to_Level_1__c = True
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>LAP100.1</label>
+        <name>LAP100_1</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Loan_Approval_Queue</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <formula>AND(
+NOT(ISBLANK(LLC_BI__Product_Package__r.Approver_2__c)),
+LLC_BI__Product_Package__r.cm_Send_to_Level_2__c = True
+)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>LAP100.2</label>
+        <name>LAP100_2</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Loan_Approval_Queue</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <formula>ISPICKVAL(LLC_BI__Product_Package__r.cm_Approval_Committee__c, &apos;Loan Committee&apos;)</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>LAP100.3</label>
+        <name>LAP100_3</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Loan_Approval_Queue</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <formula>ISPICKVAL(LLC_BI__Product_Package__r.cm_Approval_Committee__c, &apos;Board of Directors&apos;)</formula>
+        </entryCriteria>
+        <label>LAP100.4</label>
+        <name>LAP100_4</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>nCino Gold Standard Loan Approval Process to mirror associated nCino Gold Standard Product Package Approval Process (PPAP100).</description>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>AND(
+LLC_BI__Product_Package__r.LLC_BI__Reviewable_Loan_Facilities_Count__c &gt;= 1,
+LLC_BI__Is_Review_Ready__c = True,
+OR(
+NOT(ISBLANK(LLC_BI__Product_Package__r.Approver_1__c)),
+NOT(ISBLANK(LLC_BI__Product_Package__r.Approver_2__c)),
+NOT(ISPICKVAL(LLC_BI__Product_Package__r.cm_Approval_Committee__c, &apos;&apos;))
+)
+)</formula>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Loan_Approved</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Loan_Set_Credit_Approval_Date_to_Today</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Loan_Update_Stage_to_Processing</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Set_Is_Review_Ready_to_False</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Loan_Rejected</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Loan_Set_Stage_to_Final_Review</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Loan_Set_Stage_to_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>LAP100 - nCino Gold Standard AP</label>
+    <processOrder>1</processOrder>
+    <recallActions>
+        <action>
+            <name>Loan_Set_Stage_to_Final_Review</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify that Loan Document Exception Date Has Passed</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET19 - Loan Document Exception Date has Passed</name>
+    <style>freeForm</style>
+    <subject>*** Loan Document Exception Date Has Passed - Loan &quot;{!LLC_BI__Loan__c.Name}&quot; ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+A Loan Document Exception Date for Loan {!LLC_BI__Loan__c.Name} has passed.
+
+Loan Document Name: {!LLC_BI__LLC_LoanDocument__c.Name}
+Exception Date: {!LLC_BI__LLC_LoanDocument__c.LLC_BI__exceptionDate__c}
+
+For full details:  {!LLC_BI__Loan__c.Link}.
+
+nCino
+
+ET19</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

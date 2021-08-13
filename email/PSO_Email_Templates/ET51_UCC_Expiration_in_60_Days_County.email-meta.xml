@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify of county UCC Expiration in 60 Days</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET51 - UCC Expiration in 60 Days (County)</name>
+    <style>freeForm</style>
+    <subject>*** UCC Expiration in 60 Days - County UCC ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+UCC Expiration for Collateral {!LLC_BI__Loan_Collateral__c.LLC_BI__UCC_Expiration_County__c} is in 60 Days.
+
+County UCC Expiration Date: {!LLC_BI__Loan_Collateral__c.LLC_BI__UCC_Expiration_County__c}
+
+For more details: {!LLC_BI__Loan_Collateral__c.Link}
+
+nCino
+
+ET51</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

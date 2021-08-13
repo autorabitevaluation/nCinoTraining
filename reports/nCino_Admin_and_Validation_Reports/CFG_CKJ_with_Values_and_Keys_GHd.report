@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LLC_BI__CFG_CKJ__c$Name</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__CFG_CKJ__c$LLC_BI__CFG_ConfigKeys__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__CFG_CKJ__c$LLC_BI__CFG_ConfigValue__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__CFG_CKJ__c$LLC_BI__Product_Type__c.Name</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__CFG_CKJ__c$LLC_BI__CFG_ConfigValue__c.LLC_BI__Key__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__CFG_CKJ__c$LLC_BI__CFG_ConfigValue__c.LLC_BI__fieldValue__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__CFG_CKJ__c$LLC_BI__CFG_ConfigValue__c.LLC_BI__Description__c</field>
+    </columns>
+    <description>Report giving admins an administrative view to configure Credit Actions.</description>
+    <format>Tabular</format>
+    <name>CFG_CKJ with Values and Keys</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CFG_CKJ_with_CFG_ConfigValue_and_CFG_ConfigKey__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LLC_BI__CFG_CKJ__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,20 @@
+<apex:page id="thepage" standardController="nFORCE__Group__c" extensions="UIRemoveGroupController">
+    
+<apex:form >
+
+    <apex:sectionHeader title="User Interface" subtitle="Remove All Group Items"/>
+    <apex:pageMessages />
+
+    <apex:pageBlock id="pgbk1" mode="detail">
+    
+        <apex:pageBlockSection id="pgbk1_0" title="Confirm" columns="1">
+            <apex:outputLabel value="WARNING:  This will remove ALL items related to the Group, including:  Routes, Route Groups, Screens, Screen Sections, and Field Configurations."></apex:outputLabel> 
+            <apex:commandButton id="mainbutton" value="Remove Group Items" style="colStyle4" action="{!groupRedirect}"/>
+            <apex:message for="mainbutton" />   
+        </apex:pageBlockSection>        
+                    
+        
+    </apex:pageBlock>
+
+</apex:form>
+</apex:page>

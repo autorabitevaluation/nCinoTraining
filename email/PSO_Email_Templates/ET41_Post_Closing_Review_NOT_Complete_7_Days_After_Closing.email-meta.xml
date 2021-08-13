@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used when Post Closing Review has not been completed 7 days after closing</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET41 - Post-Closing Review NOT Complete 7 Days After Closing</name>
+    <style>freeForm</style>
+    <subject>*** Post Closing Review Not Complete 7 Days After Closing - Loan &quot;{!LLC_BI__Loan__c.Name}&quot; ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+The Post Closing Review of Loan &quot;{!LLC_BI__Loan__c.Name}&quot; has not been completed.  The loan closed on {!LLC_BI__Loan__c.LLC_BI__CloseDate__c}. If required, please login in at your earliest convenience to take the appropriate next steps.
+
+Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+
+Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+
+Click Here for Full Loan Details: {!LLC_BI__Loan__c.Link}
+
+nCino
+
+ET41</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

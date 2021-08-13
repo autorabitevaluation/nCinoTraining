@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used when a loan has been rejected after being submitted for approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET30 - Loan Rejected</name>
+    <style>freeForm</style>
+    <subject>*** Loan {!LLC_BI__Loan__c.Name} has been REJECTED ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+Loan &quot;{!LLC_BI__Loan__c.Name}&quot; has been Rejected at this time. You may simply need to add/update information or the loan may need to be declined.
+
+Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+
+Loan Officer: {!LLC_BI__Loan__c.LLC_BI__Loan_Officer__c}
+
+Rejected by:  {!ApprovalRequest.Process_Approver}
+
+Rejection Comments:  {!ApprovalRequest.Comments}
+
+Click here for complete Loan Details {!LLC_BI__Loan__c.Link}.
+
+nCino
+
+ET30</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

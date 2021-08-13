@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>44.0</apiVersion>
+    <label>UIDeepCloneSelectComponent</label>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>789</minorNumber>
+        <namespace>nFORCE</namespace>
+    </packageVersions>
+</ApexComponent>

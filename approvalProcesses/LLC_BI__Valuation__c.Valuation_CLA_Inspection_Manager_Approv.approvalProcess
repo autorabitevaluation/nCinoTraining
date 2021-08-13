@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>LLC_BI__Loan__c</field>
+        <field>LLC_BI__Start_Date__c</field>
+        <field>LLC_BI__Status__c</field>
+        <field>LLC_BI__Transaction_Request__c</field>
+        <field>LLC_BI__Type__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>CLA_Queue</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>CLA Inspection Manager Approval</label>
+        <name>CLA_Inspection_Manager_Approval</name>
+    </approvalStep>
+    <description>This approval process is used to verify that the draw requested has been approved by an inspection manager who confirms the work has been done and agreement loaded into document manager.</description>
+    <emailTemplate>PSO_Email_Templates/ET57_Valuation_Submitted_for_Approval</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>AND(
+ISPICKVAL(LLC_BI__Status__c, &quot;Pending&quot;),
+ISPICKVAL( LLC_BI__Type__c , &quot;Inspection&quot;))</formula>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Alert_Valuation_Approved</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Set_Inspection_Status_to_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Alert_Valuation_Rejected</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Set_Inspection_Status_to_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Valuation:CLAInspection Manager Approval</label>
+    <processOrder>1</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

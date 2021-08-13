@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LLC_BI__third_party_report__c$Name</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__third_party_report__c$LLC_BI__Report_Type__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__third_party_report__c$Associated_Fee__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__third_party_report__c$LLC_BI__Report_Ordered__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__third_party_report__c$LLC_BI__Report_Due_Date__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__third_party_report__c$LLC_BI__Report_Rcvd__c</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>LLC_BI__third_party_report__c$LLC_BI__EPA_Vendor__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Third Party Reports by EPA Vendor</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Third_Party_Reports__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LLC_BI__third_party_report__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

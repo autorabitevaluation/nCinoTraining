@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>LLC_BI__Loan__c</entityName>
+    <fieldName>LLC_BI__Stage__c</fieldName>
+    <masterLabel>Loan Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;ASSIGNED APPROVER/  CREDIT COMMITTEE&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Reviews loan request details&lt;/li&gt;&lt;li&gt;Issues Approval or Rejection and adds comments relevant to decision&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Approval / Loan Committee</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;BOARDING SPECIALISTS&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Completes boarding process&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Booked</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;LOAN OFFICER&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Schedules closing&lt;/li&gt;&lt;li&gt;Prepares funding instrument (outside of nCino)&lt;/li&gt;&lt;li&gt;Once signed, reviews documentation for completeness&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;CLOSER&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Verify receipt of executed closing documents&lt;/li&gt;&lt;li&gt;Ensure proper lien recordation&lt;/li&gt;&lt;li&gt;Book loan to servicing&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Closing</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;LOAN OFFICER&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Nothing this stage&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;UNDERWRITER&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Perform financial analysis&lt;/li&gt;&lt;li&gt;Pull credit reports&lt;/li&gt;&lt;li&gt;Collateral Analysis&lt;/li&gt;&lt;li&gt;Inputs all relevant loan information while progressing through the nCino loan screens&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Credit Underwriting</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;DOC PREP SPECIALISTS&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Verify closing date&lt;/li&gt;&lt;li&gt;Prepare documents&lt;/li&gt;&lt;li&gt;Ensure E-Signature eligibility&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Doc Prep</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;LOAN OFFICER&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Reviews Product Package loan request(s) for completeness&lt;/li&gt;&lt;li&gt;Generates PDF Credit Memo and saves to Doc Man&lt;/li&gt;&lt;li&gt;When ready, checks the &amp;quot;Is Review Ready&amp;quot;&lt;/li&gt;&lt;li&gt;Submits Product Package for Approval&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Final Review</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;LOAN OFFICER&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;If necessary, adds any Covenants per approval comments&lt;/li&gt;&lt;li&gt;Notifies customer of approval&lt;/li&gt;&lt;li&gt;If necessary, generates Commitment Letter via Form Gen&lt;/li&gt;&lt;li&gt;Continues loading applicable documentation to Doc Man&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;LOAN OPS SPECIALIST&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Validate collateral valuations&lt;/li&gt;&lt;li&gt;Verify insurances&lt;/li&gt;&lt;li&gt;Ensure data integrity for doc prep&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Processing</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;LOAN OFFICER&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;If applicable, generates Letter of Intent via Form Gen&lt;/li&gt;&lt;li&gt;Creates any necessary Fee records&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Proposal</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>LLC_BI__Amount__c</fieldNames>
+        <fieldNames>LLC_BI__CloseDate__c</fieldNames>
+        <info>&lt;p&gt;&lt;b&gt;LOAN OFFICER&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Identify Clients and Products Structure &lt;/li&gt;&lt;li&gt;Collect Required Documents for Underwriting&lt;/li&gt;&lt;li&gt;Perform KYC / Other Compliance Checks&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Qualification</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Commercial_Loan_Record_Type</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify of Expired State UCC</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET54 - UCC Expired (State)</name>
+    <style>freeForm</style>
+    <subject>*** UCC Expired - State ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+UCC for Collateral {!LLC_BI__Loan_Collateral__c.LLC_BI__UCC_Expiration_State__c} has expired.
+
+State UCC Expiration Date: {!LLC_BI__Loan_Collateral__c.LLC_BI__UCC_Expiration_State__c}
+
+For more details: {!LLC_BI__Loan_Collateral__c.Link}
+
+nCino
+
+ET54</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

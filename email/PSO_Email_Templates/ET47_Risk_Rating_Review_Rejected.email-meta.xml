@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify users that a risk rating has been rejected by approver</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET47 - Risk Rating Review Rejected</name>
+    <style>freeForm</style>
+    <subject>*** Risk Rating Review for Loan &apos;{!LLC_BI__Loan__c.Name}&apos; has been REJECTED ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+A Risk Rating Review for Relationship &quot;{!LLC_BI__Annual_Review__c.LLC_BI__Account__c}&quot; has been Rejected.
+
+Computed Risk Grade: {!LLC_BI__Annual_Review__c.LLC_BI__Computed_Risk_Grade_Value__c}
+
+Comments: {!LLC_BI__Annual_Review__c.LLC_BI__Comments__c}
+
+Rejected by:  {!ApprovalRequest.Process_Approver}
+
+Rejection Comments:  {!ApprovalRequest.Comments}
+
+Click here for complete Risk Rating Review Details: {!LLC_BI__Annual_Review__c.Link}
+
+nCino
+
+ET47</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

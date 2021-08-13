@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Welcome to nCino {!User.FirstName}!<br><br><br>In the very near future, you will be receiving an email from support@salesforce.com.&nbsp; This will be an activation email to access nCino for the very first time.&nbsp; Once you receive this message, please login as soon as possible.&nbsp; Failure to do so within 24 hours will cause the email to become inactive and require a password reset. &nbsp;<br><br><br>Upon initial login, you will be prompted to create your own unique password.&nbsp; Please remember this password and bring it with you to pilot training.&nbsp; Your username will be your email address. Please let us know if you have any additional questions or concerns. &nbsp;<br><br>Thanks!<br><br>The nCino Project Team<br><br><div align="right">ET56<br></div>]]></td>
+</tr>
+</table>

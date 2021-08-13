@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used after a loan modification has been approved</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET27 - Loan Modification Approved</name>
+    <style>freeForm</style>
+    <subject>*** The Loan Modification for {!LLC_BI__Loan_Modification__c.Name} has been Approved ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+Loan Modification &quot;{!LLC_BI__Loan_Modification__c.Name}&quot; has been Approved.
+
+Loan: {!LLC_BI__Loan_Modification__c.LLC_BI__Loan__c}
+Current Principal Balance: {!LLC_BI__Loan__c..LLC_BI__Principal_Balance__c}
+
+Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+
+Effective Date:  {!LLC_BI__Loan_Modification__c.LLC_BI__Effective_Date__c}
+
+Approved by:  {!ApprovalRequest.Process_Approver}
+
+Approval Comments:  {!ApprovalRequest.Comments}
+
+Click here for complete Loan Modification Details: {!LLC_BI__Loan_Modification__c.Link}
+
+nCino
+
+ET27</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

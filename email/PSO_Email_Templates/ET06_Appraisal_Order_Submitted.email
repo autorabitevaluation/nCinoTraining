@@ -1,0 +1,8 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><br></div>An Appraisal Order has been submitted for Loan&nbsp;{!LLC_BI__Loan__c.Name}.
+<br>
+<br>Borrower: {!LLC_BI__Loan__c.LLC_BI__Account__c}<br>Loan Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}<br>Closing Date: {!LLC_BI__Loan__c.LLC_BI__CloseDate__c}<br><br>Officer Comments and Requests: {!LLC_BI__Loan__c.LLC_BI__Officer_Comments__c}<br><br>For details regarding this appraisal order: {!LLC_BI__Loan__c.Link}<br><div><br></div><div>nCino</div><div><br></div><div><div><br></div></div><div><br></div><div style="text-align: right;">ET06</div>]]></td>
+</tr>
+</table>

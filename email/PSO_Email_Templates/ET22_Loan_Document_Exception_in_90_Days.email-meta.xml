@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify that Loan Document Exception Date is in 90 Days</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET22 - Loan Document Exception in 90 Days</name>
+    <style>freeForm</style>
+    <subject>*** Loan Document Exception Date in 90 Days - Loan &quot;{!LLC_BI__Loan__c.Name}&quot; ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+Loan {!LLC_BI__Loan__c.Name} has a document exception in 90 Days.
+
+Loan Document Name: {!LLC_BI__LLC_LoanDocument__c.Name}
+Exception Date: {!LLC_BI__LLC_LoanDocument__c.LLC_BI__exceptionDate__c}
+
+For full details: {!LLC_BI__Loan__c.Link}
+
+nCino
+
+ET22</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

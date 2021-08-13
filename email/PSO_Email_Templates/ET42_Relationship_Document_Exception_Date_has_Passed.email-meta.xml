@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify that Relationship Document Exception Date Has Passed</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET42 - Relationship Document Exception Date has Passed</name>
+    <style>freeForm</style>
+    <subject>*** Relationship Document Exception Date Has Passed - Relationship &quot;{!Account.Name}&quot; ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+A Relationship Document Exception Date for Relationship {!Account.Name} has passed.
+
+Document Name: {!LLC_BI__AccountDocument__c.Name}
+Exception Date: {!LLC_BI__AccountDocument__c.LLC_BI__exceptionDate__c}
+
+Click here for full details:  {!Account.Link}.
+
+nCino
+
+ET42</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

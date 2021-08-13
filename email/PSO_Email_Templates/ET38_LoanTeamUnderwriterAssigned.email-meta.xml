@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used with TeamKeyMailer to notify individual underwriter of assignment to Loan Team. Note that template name cannot contain spaces</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET38 - LoanTeamUnderwriterAssigned</name>
+    <style>freeForm</style>
+    <subject>*** You Have Been Assigned as the Underwriter for Loan &apos;{!LLC_BI__Loan__c.Name}&apos; ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+You have been Assigned as the Underwriter for the following Loan:
+
+Loan Name: {!LLC_BI__Loan__c.Name}
+Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+
+Product Line:  {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+Product:  {!LLC_BI__Loan__c.LLC_BI__Product_Reference__c}
+
+Please login at your earliest convenience to take the appropriate next steps.
+
+Click Here for Full Loan Details: {!LLC_BI__Loan__c.Link}
+
+nCino
+
+ET38</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,15 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div><br></div><div><br></div><div><span style="font-size: 12pt;">Hello&nbsp;</span><span style="font-size: 12pt; background-color: rgb(255, 255, 255);">{!Organization.Name}&nbsp;</span><span style="font-size: 12pt;">Team Member,&nbsp;</span></div>
+<br>A Risk Rating Review for Relationship "{!LLC_BI__Annual_Review__c.LLC_BI__Account__c}" has been Rejected.
+<br>
+<br>Computed Risk Grade: {!LLC_BI__Annual_Review__c.LLC_BI__Computed_Risk_Grade_Value__c}
+<br>
+<br>Comments: {!LLC_BI__Annual_Review__c.LLC_BI__Comments__c}
+<br>
+<br><span style="background-color: rgb(255, 255, 255);">Rejected by: &nbsp;{!ApprovalRequest.Process_Approver}</span><div><br></div><div>Rejection Comments: &nbsp;{!ApprovalRequest.Comments}</div><div><br></div><div>Click here for complete Risk Rating Review Details: {!LLC_BI__Annual_Review__c.Link}
+<br>
+<br>nCino<div><br></div><div style="text-align: right;">ET47</div></div>]]></td>
+</tr>
+</table>

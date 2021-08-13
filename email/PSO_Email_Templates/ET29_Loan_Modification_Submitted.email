@@ -1,0 +1,30 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Hello&nbsp;<span style="background-color: rgb(255, 255, 255);">{!Organization.Name}&nbsp;</span>Team Member, 
+<br>
+<br>Loan Modification "{!LLC_BI__Loan_Modification__c.Name}" has been 
+submitted to you for approval. Please use this link to visit the Loan 
+Modification: {!LLC_BI__Loan_Modification__c.Link} 
+<br>
+<br>After you have reviewed the Loan Modification, hover over "Approval 
+History" at the top of the page. Then click on Approve/Reject. On the 
+next page, enter your comments and either Approve, or Reject, the Loan 
+Modification. 
+<br>
+<br>========================= 
+<br>
+<br>Loan: {!LLC_BI__Loan_Modification__c.LLC_BI__Loan__c} 
+<br>Current Principal Balance: {!LLC_BI__Loan__c..LLC_BI__Principal_Balance__c} 
+<br>
+<br>Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c} 
+<br>Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c} 
+<br>Product: {!LLC_BI__Loan__c.LLC_BI__Product__c} 
+<br>
+<br>Effective Date: {!LLC_BI__Loan_Modification__c.LLC_BI__Effective_Date__c} 
+<br>
+<br>Click here for complete Loan Modification Details: 
+<br>
+<br>nCino<div><br></div><div style="text-align: right;">ET29</div>]]></td>
+</tr>
+</table>

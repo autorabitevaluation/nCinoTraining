@@ -1,0 +1,15 @@
+<apex:page controller="nFORCE.PageServerController"
+     contentType="text/html"
+     readOnly="true"
+     applyHtmlTag="false"
+     standardStylesheets="false"
+     showHeader="false"
+     cache="false"
+     sidebar="false">
+    <apex:variable var="includeVar" value="" rendered="{!(!hasError)}">
+        <apex:include pageName="{!include}" />
+    </apex:variable>
+    <apex:variable var="errorVar" value="" rendered="{!hasError}">
+        <span id="theErrorPage:theError">{!errorMessage}</span>
+    </apex:variable>
+</apex:page>

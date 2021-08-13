@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to invite new users to login for the first time</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET56 - Welcome to nCino</name>
+    <style>freeForm</style>
+    <subject>*** Welcome to nCino! ***</subject>
+    <textOnly>Welcome to nCino {!User.FirstName}!
+
+
+In the very near future, you will be receiving an email from support@salesforce.com.  This will be an activation email to access nCino for the very first time.  Once you receive this message, please login as soon as possible.  Failure to do so within 24 hours will cause the email to become inactive and require a password reset.
+
+
+Upon initial login, you will be prompted to create your own unique password.  Please remember this password and bring it with you to pilot training.  Your username will be your email address. Please let us know if you have any additional questions or concerns.
+
+Thanks!
+
+The nCino Project Team
+
+ET56</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

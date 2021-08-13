@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Updated from &apos;https://site-dream-952--llc-bi.na88.visual.force.com&apos; on 05 Jan 20, per PSO Master issue log.</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://subdomain--ncred.visualforce.com</url>
+</RemoteSiteSetting>

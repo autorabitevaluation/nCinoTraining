@@ -1,0 +1,65 @@
+<apex:page id="thepage" standardController="nFORCE__Group__c">
+
+    <!-- <nFORCE:Includes enableBootstrap3="true" enableBS3Namespace="true" enableFontAwesome="true" /> -->
+    <!-- <div class="force"> -->
+    <apex:form >
+
+        <apex:sectionHeader title="UI Management" subtitle="Clone UI Group" />
+
+        <apex:tabPanel switchType="client" selectedTab="name2" id="theTabPanel">
+
+            <!-- CLONE TAB -->
+            <!--
+            <apex:tab label="Legacy Clone Group" name="name1" id="tabOne">
+                <apex:pageBlock id="pgbk2" mode="detail">
+                    <apex:pageBlockSection id="pgbk1_1" title="Original Group Information" columns="1">
+                        <apex:outputField value="{!nFORCE__Group__c.Name}" />
+                        <apex:outputField value="{!nFORCE__Group__c.nFORCE__App__c}" />
+                        <apex:outputField value="{!nFORCE__Group__c.nFORCE__lookupKey__c}" />
+                    </apex:pageBlockSection>
+                </apex:pageBlock>
+
+                <apex:pageMessages />
+
+                <apex:pageBlock id="pgbk1" mode="detail">
+                    <apex:pageBlockSection id="pgbk1_1" title="New Group Information" columns="1">
+                        <apex:outputText value="Enter a Name for the new Group below.  Make sure it does not match an existing Group name.  Unique App names will be automatically assigned.  
+                This operation will create an exact duplicate of the original group, with no overlap." label="Note:" />
+
+                        <apex:inputText value="{!newGroupName}" label="New Name" />
+
+                        <apex:commandButton id="mainbutton" value="Proceed with Clone" style="colStyle4" action="{!prRedirect}" />
+                        <apex:message for="mainbutton" />
+                    </apex:pageBlockSection>
+                </apex:pageBlock>
+            </apex:tab>
+            -->
+
+            <!-- CLONE ENTIRE GROUP COMPONENT TAB -->
+            <apex:tab label="Clone Entire Group" name="name2" id="tabTwo">
+                <c:UIDeepCloneAllComponent groupName="{!nFORCE__Group__c.Name}" 
+                    groupApp="{!nFORCE__Group__c.nFORCE__App__c}" 
+                    groupLookupkey="{!nFORCE__Group__c.nFORCE__lookupKey__c}" 
+                />
+            </apex:tab>
+            
+            <!-- CLONE SPECIFIC ROUTE GROUPS COMPONENT TAB -->
+            <apex:tab label="Clone Partial Group" name="name4" id="tabTwoB">
+                <c:UIDeepCloneSelectComponent groupName="{!nFORCE__Group__c.Name}" 
+                    groupApp="{!nFORCE__Group__c.nFORCE__App__c}" 
+                    groupLookupkey="{!nFORCE__Group__c.nFORCE__lookupKey__c}" 
+                    groupSFID="{!nFORCE__Group__c.Id}"
+                />
+            </apex:tab>
+
+            <!-- LOOKUPKEY COMPONENT TAB -->
+            <apex:tab label="lookupKey Validation" name="name3" id="tabThree">
+                <c:UILookupKeyUtilityComponent />
+            </apex:tab>
+            
+        </apex:tabPanel>
+
+    </apex:form>
+    <!-- </div> -->
+
+</apex:page>

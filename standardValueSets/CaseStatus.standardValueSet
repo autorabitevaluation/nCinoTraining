@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Working - Client</fullName>
+        <default>false</default>
+        <label>Working - Client</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Working - nCino</fullName>
+        <default>false</default>
+        <label>Working - nCino</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Decision Required</fullName>
+        <default>false</default>
+        <label>Business Decision Required</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed (Not Resolved)</fullName>
+        <default>false</default>
+        <label>Closed (Not Resolved)</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready for Retest</fullName>
+        <default>false</default>
+        <label>Ready for Retest</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

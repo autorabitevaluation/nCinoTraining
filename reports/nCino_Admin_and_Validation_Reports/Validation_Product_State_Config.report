@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LLC_BI__Product_Type__c$LLC_BI__Product_Line__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Product_Type__c.LLC_BI__Product_Type_Config__r$Name</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Product_Type__c$LLC_BI__Product_State_Booked_Config_Count__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Product_Type__c$LLC_BI__Product_State_Closed_Config_Count__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Product_Type__c.LLC_BI__Product_Type_Config__r$LLC_BI__Stage__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Product_Type__c.LLC_BI__Product_Type_Config__r$LLC_BI__Status__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Product_Type__c.LLC_BI__Product_Type_Config__r$LLC_BI__Is_Closed__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Product_Type__c.LLC_BI__Product_Type_Config__r$LLC_BI__Is_Booked__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>LLC_BI__Product_Type__c.LLC_BI__Product_Type_Config__r$LLC_BI__Is_Covenant__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>LLC_BI__Product_Type__c.LLC_BI__Product_Type_Config__r$LLC_BI__Activate__c</field>
+    </columns>
+    <description>Used to determine/ensure PSC is setup for all product types.</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>LLC_BI__Product_Type__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Validation - Product State Config</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Product_Types_with_and_without_PSC__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LLC_BI__Product_Type__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

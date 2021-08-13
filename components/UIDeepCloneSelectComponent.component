@@ -1,0 +1,79 @@
+<apex:component allowDML="true" layout="none" controller="UserInterfaceDeepClone">
+
+    <!-- <apex:attribute name="groupId" type="Id" description="Id" assignTo="{!RecordId}" /> -->
+    <apex:attribute name="groupSFID" description="group id" type="string"/>
+    <apex:attribute name="groupName" description="group name" type="string"/>
+    <apex:attribute name="groupApp" description="group app" type="string"/>  
+    <apex:attribute name="groupLookupkey" description="group lookupkey" type="string"/>    
+    
+    <apex:pageBlock id="pgbk2" mode="detail">
+        <apex:pageBlockSection id="pgbk1_1" title="Original Group Information" columns="2">     
+            <apex:outputLabel value="Name: " style="font-weight:800;" /><apex:outputText value="{!groupName}" />
+            <apex:outputLabel value="App: " style="font-weight:800;" /><apex:outputText value="{!groupApp}" />
+            <apex:outputLabel value="lookupKey: " style="font-weight:800;" /><apex:outputText value="{!groupLookupkey}" />
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+    <!--
+    <apex:pageBlock id="pgbk4" mode="detail">
+        <apex:pageBlockSection id="pgbk4_1" title="Clone Granularity" columns="1">
+            <apex:commandButton value="Clone All" action="{!cloneAll}" rerender="opRG"/>
+            <apex:commandButton value="Select Route Groups" action="{!cloneManual}" rerender="opRG"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    -->
+    
+    <apex:outputPanel id="opRG">
+    <apex:pageBlock id="pgbk3" mode="detail">
+        <apex:pageBlockSection id="pgbk3_1" title="Select Route Groups to Clone" columns="5">     
+            <apex:pageBlockTable value="{!searchResults}" var="rg" styleClass="table table-bordered">
+                <apex:facet name="header">
+                    <input type="checkbox" id="checkAllBox" onchange="toggleCheckAll(this)"/> Select All
+                </apex:facet>
+                <apex:column width="40px">
+                    <apex:inputCheckbox styleClass="selectInput" value="{!rg.checked}"/>
+                </apex:column>
+                <apex:column value="{!rg.rtgrp.Name}" headerValue="Name"/>
+                <apex:column value="{!rg.rtgrp.nFORCE__Route__r.Name}" headerValue="Related Route Name"/>
+                <apex:column value="{!rg.rtgrp.nFORCE__Route__r.nFORCE__App__c}" headerValue="Related Route App"/>
+                <apex:column value="{!rg.rtgrp.nFORCE__Parent_Route__r.Name}" headerValue="Related Parent Route Name"/>
+                <apex:column value="{!rg.rtgrp.nFORCE__Is_Default_Context_Child__c}" headerValue="Is Default Context"/>
+                <apex:column value="{!rg.rtgrp.nFORCE__Is_Hidden__c}" headerValue="Is Hidden"/>
+                <apex:column value="{!rg.rtgrp.nFORCE__Order__c}" headerValue="Order"/>
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    </apex:outputPanel>
+    
+    <apex:pageMessages />    
+    
+    <apex:pageBlock id="pgbk1" mode="detail">
+        <apex:pageBlockSection id="pgbk1_1" title="New Group Information" columns="2">
+            <apex:outputText value="Some Routes must only be used once across multiple Groups.  These Routes will be automatically
+                re-used as part of the cloning process.  If there are any custom Routes in this existing Group that should not be cloned 
+                and should instead be re-used in the new Group, please define the App values in a comma-separated format without spaces." label="" />
+            <apex:inputText style="display:block;width:400px;" value="{!appsToExclude}" label="App Values of Routes to Exclude" />
+            <a href="#" data-toggle="tooltip" data-placement="left" title="The following Route Apps will already be automatically re-used: 
+            loan-auto-decision-history, loan-auto-decision-detail, doc-prep, doc-prep-status, doc-prep-closing, doc-prep-review, rate-structure, payment-structure, tool-docman, unidoc">
+                Hover for more information
+            </a>
+            <apex:outputText value="" />
+            <apex:outputText value="Enter a Name for the new Group below.  Make sure it does not match an existing Group name.  
+                Unique App names will be automatically assigned.  
+                This operation will create an exact duplicate of the original group, with no overlap." label="" />             
+            <apex:inputText style="display:block;width:400px;" value="{!newGroupName}" label="New Group Name" />
+
+            <apex:commandButton id="mainbutton" value="Proceed with Clone" style="colStyle4" action="{!prRedirect}" />
+            <apex:message for="mainbutton" />   
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+    <script>
+        function toggleCheckAll(id) {
+            var inputList = document.getElementsByClassName('selectInput');
+            for(var i=0;i<inputList.length;i++)
+                document.getElementsByClassName('selectInput')[i].checked = id.checked;
+        } 
+    </script>
+
+</apex:component>

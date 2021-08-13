@@ -1,0 +1,21 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Hello&nbsp;<span style="background-color: rgb(255, 255, 255);">{!Organization.Name}&nbsp;</span>Team Member,
+<br>
+<br>You have been Assigned as the Closer for the following Loan:
+<br>
+<br>Loan Name: {!LLC_BI__Loan__c.Name}
+<br>Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+<br>
+<br>Product Line: &nbsp;{!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+<br>Product Type: &nbsp;{!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+<br>Product: &nbsp;{!LLC_BI__Loan__c.LLC_BI__Product_Reference__c}
+<br>
+<br>Please login at your earliest convenience to take the appropriate next steps.
+<br>
+<br>Click Here for Full Loan Details: {!LLC_BI__Loan__c.Link}
+<br>
+<br>nCino<div><br></div><div style="text-align: right;">ET36</div>]]></td>
+</tr>
+</table>

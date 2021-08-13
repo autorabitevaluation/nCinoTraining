@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>rarely</animationFrequency>
+    <developerName>Loan_Path</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Loan Path</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Commercial_Loan_Record_Type</recordTypeName>
+    <sobjectType>LLC_BI__Loan__c</sobjectType>
+    <targetField>LLC_BI__Stage__c</targetField>
+    <targetFieldChangeToValues>Booked</targetFieldChangeToValues>
+</AnimationRule>

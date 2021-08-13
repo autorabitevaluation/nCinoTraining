@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used when a new customer is identified as a VIP Customer or Relationship</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET39 - New VIP Customer Alert</name>
+    <style>freeForm</style>
+    <subject>*** New VIP Customer - {!Account.Name} ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+A new VIP Customer has been added - &quot;{!Account.Name}&quot;.
+
+Relationship Owner: {!Account.OwnerFullName}
+
+Click here for full customer details: {!Account.Link}.
+
+nCino
+
+ET39</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

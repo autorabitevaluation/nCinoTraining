@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <description>Set results for complete integrations</description>
+        <name>Integrations_Complete</name>
+        <label>Integrations Complete</label>
+        <locationX>560</locationX>
+        <locationY>51</locationY>
+        <assignmentItems>
+            <assignToReference>Result</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>IntegrationsFinished</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>ResultDescription</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <description>Integrations still running assignments to Results and Result Description</description>
+        <name>Integrations_Still_Running</name>
+        <label>Integrations Still Running</label>
+        <locationX>213</locationX>
+        <locationY>297</locationY>
+        <assignmentItems>
+            <assignToReference>Result</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ResultInformationRequested</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>ResultDescription</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Integrations Still Running</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <constants>
+        <description>Integrations have finished successfully</description>
+        <name>IntegrationsFinished</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Complete</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <description>Check to see if Credit Report is existing to use.</description>
+        <name>Is_Credit_Report_Existing</name>
+        <label>Is Credit Report Existing</label>
+        <locationX>205</locationX>
+        <locationY>52</locationY>
+        <defaultConnector>
+            <targetReference>Integrations_Still_Running</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Credit Report Not Existing</defaultConnectorLabel>
+        <rules>
+            <name>Credit_Report_Existing</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>CreditRequest</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Integrations_Complete</targetReference>
+            </connector>
+            <label>Credit Report Existing</label>
+        </rules>
+    </decisions>
+    <description>Captures all process/execution of Integrations in the context of usage for Loan Auto Decision</description>
+    <interviewLabel>Integration_LoanAutoDecision {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Integration_LoanAutoDecision</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <startElementReference>Is_Credit_Report_Existing</startElementReference>
+    <status>Active</status>
+    <variables>
+        <description>Holds Credit Request Object Data</description>
+        <name>CreditRequest</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>nFUSE__Credit_Report__c</objectType>
+    </variables>
+    <variables>
+        <description>Holds Loan Information from the parent Flow</description>
+        <name>loanInformation</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>LLC_BI__Loan__c</objectType>
+    </variables>
+    <variables>
+        <description>Result of the Integrations. should pass in kill code or a finish line.</description>
+        <name>Result</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>Holds description to display back on Loan Auto Decision VisualForce page</description>
+        <name>ResultDescription</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>Holds Result Information Requested value from Master Flow Constant</description>
+        <name>ResultInformationRequested</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

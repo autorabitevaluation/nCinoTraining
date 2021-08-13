@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used when a loan&apos;s status changes. Note that this is NOT for use with Loan Team Members. Generic alert will apply to any status change</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET32 - Loan Status Change (generic)</name>
+    <style>freeForm</style>
+    <subject>*** Status of Loan &quot;{!LLC_BI__Loan__c.Name}&quot; has changed to {!LLC_BI__Loan__c.LLC_BI__Status__c} ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+The status of Loan &quot;{!LLC_BI__Loan__c.Name}&quot; has changed to {!LLC_BI__Loan__c.LLC_BI__Status__c}. If required, please login in at your earliest convenience to take the appropriate next steps.
+
+Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+
+Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+
+Application Date: {!LLC_BI__Loan__c.Application_Date__c}
+
+Click Here for Full Loan Details: {!LLC_BI__Loan__c.Link}
+
+nCino
+
+ET32</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

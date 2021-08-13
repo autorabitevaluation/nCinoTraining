@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Employee_Reg_O_Relationship_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <description>This sharing rule gives users the ability to see Employee &amp; Reg O Relationships</description>
+        <label>Employee &amp; Reg O Relationship Access</label>
+        <sharedTo>
+            <group>Employee_Reg_O_Access</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) OR (1 AND 2)</booleanFilter>
+        <criteriaItems>
+            <field>LLC_BI__Employee_Relationship__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>LLC_BI__Reg_O_Relationship__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Non_Employee_Reg_O_Relationships</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <description>All Relationships are available to Internal Users with the exception of Employee &amp; Reg O Relationships</description>
+        <label>Non-Employee &amp; Reg O Relationships</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>LLC_BI__Employee_Relationship__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>LLC_BI__Reg_O_Relationship__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

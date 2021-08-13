@@ -1,0 +1,22 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Hello&nbsp;<span style="background-color: rgb(255, 255, 255);">{!Organization.Name}</span>&nbsp;Team Member, 
+<br>
+<br>Change Memo "{!LLC_BI__Credit_Memo_Modifcation__c.Name}" has been Approved. 
+<br>
+<br>Loan: {!LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Loan__c}
+<br>Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+<br>
+<br>Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c} 
+<br>Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c} 
+<br>Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+<br>
+<br>Estimated Close Date: {!LLC_BI__Loan__c.LLC_BI__CloseDate__c}
+<br>Loan Officer: {!LLC_BI__Loan__c.LLC_BI__Loan_Officer__c} 
+<br>
+<br><span style="background-color: rgb(255, 255, 255);">Approved by: &nbsp;{!ApprovalRequest.Process_Approver}</span><div><br></div><div>Approval Comments: &nbsp;{!ApprovalRequest.Comments}</div><div><br></div><div>Click here for complete Change Memo Details: {!LLC_BI__Credit_Memo_Modifcation__c.Link}
+<br>
+<br>nCino<div><br></div><div style="text-align: right;">ET07</div></div>]]></td>
+</tr>
+</table>

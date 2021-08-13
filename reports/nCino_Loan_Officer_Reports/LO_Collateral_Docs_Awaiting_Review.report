@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Document_Placeholder__c.NDOC__Account__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Document_Placeholder__c.LLC_BI__Portal_Doc_Name__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Document_Placeholder__c.LLC_BI__Portal_Doc_Description__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Document_Placeholder__c.NDOC__Collateral_Mgmt__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Document_Placeholder__c.NDOC__Collateral_Ownership__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>LLC_BI__Document_Placeholder__c.LLC_BI__Review_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Awaiting Review</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>LLC_BI__Document_Placeholder__c.LLC_BI__Portal_Upload_Date__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>LO - Collateral Docs Awaiting Review</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$LLC_BI__Document_Placeholder__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LLC_BI__Document_Placeholder__c.LLC_BI__Approval_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

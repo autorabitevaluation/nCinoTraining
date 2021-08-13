@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to provide notice that a covenant evaluation date is Past Due</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET13 - Covenant Evaluation Date Past Due</name>
+    <style>freeForm</style>
+    <subject>*** NOTICE: Covenant {!LLC_BI__Covenant__c.Name} - Past Due ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+This email is a reminder that the evaluation of Covenant &quot;{!LLC_BI__Covenant__c.Name}&quot; is past due.
+
+Next Evaluation Date: {!LLC_BI__Covenant__c.LLC_BI__Next_Evaluation_Date__c}
+
+Please click here for full Covenant details: {!LLC_BI__Covenant__c.Link}
+
+nCino
+
+ET13</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

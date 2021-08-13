@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify approvers that a Risk Rating Review was submitted for their approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET48 - Risk Rating Review Submitted</name>
+    <style>freeForm</style>
+    <subject>***Risk Rating Review has been Submitted for Your Review and Approval***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+A Risk Rating Review for Relationship &quot;{!LLC_BI__Annual_Review__c.LLC_BI__Account__c}&quot; has been Submitted for Review.  Please use this link to visit the Risk Rating Review : {!LLC_BI__Annual_Review__c.Link}
+
+After you have reviewed the Risk Rating Review, hover over &quot;Approval History&quot; at the top of the page. Then click on Approve/Reject. On the next page, enter your comments and either Approve, or Reject, the Risk Rating Review
+
+======
+
+Computed Risk Grade: {!LLC_BI__Annual_Review__c.LLC_BI__Computed_Risk_Grade_Value__c}
+
+Comments: {!LLC_BI__Annual_Review__c.LLC_BI__Comments__c}
+
+nCino
+
+ET48</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used after a loan&apos;s status has been changed to withdrawn</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET34 - Loan Status to Withdrawn Alert</name>
+    <style>freeForm</style>
+    <subject>*** Loan {!LLC_BI__Loan__c.Name} has been Withdrawn ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+Loan &quot;{!LLC_BI__Loan__c.Name}&quot; has been Withdrawn.
+Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+
+Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+
+Loan Officer: {!LLC_BI__Loan__c.LLC_BI__Loan_Officer__c}
+
+Please review at your earliest possible convenience to see if any Adverse Action notices apply.
+
+Click here for complete Loan Details: {!LLC_BI__Loan__c.Link}
+
+nCino
+
+ET34</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

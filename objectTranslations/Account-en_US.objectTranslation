@@ -1,0 +1,2928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Relationship</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Relationships</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Loan --></label>
+        <name>Credit_Memo_Standard_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Review Account --></label>
+        <name>Credit_Memo_Standard_Review_Account</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Review Account --></label>
+        <name>Credit_Memo_Standard_Review_Acct_Related</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Review Product Package --></label>
+        <name>Credit_Memo_Standard_Review_ProdPack_Rel</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Review Product Package --></label>
+        <name>Credit_Memo_Standard_Review_Product_Pack</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- EO - Business Mailing Address --></label>
+        <name>EO_Business_Mailing_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- EO - Details - Business-Summary --></label>
+        <name>EO_Details_Business_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- EO Relationship Details --></label>
+        <name>EO_Relationship_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity Involvement Businesses Field Set 2 --></label>
+        <name>Entity_Involvement_Businesses_Custom</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity Involvement New Business Fields 2 --></label>
+        <name>Entity_Involvement_New_Business_Custom</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- IB_Entity_Involvement_Businesses_Fields --></label>
+        <name>IB_Entity_Involvement_Businesses_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account_Proforma_ECA --></label>
+        <name>LLC_BI__Account_Proforma_ECA</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Counterparty Report --></label>
+        <name>LLC_BI__Counterparty_Report</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>LLC_BI__Credit_Memo_Standard_Product_Package</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity Involvement Businesses Field Set --></label>
+        <name>LLC_BI__Entity_Involvement_Businesses_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity Involvement New Business Fields --></label>
+        <name>LLC_BI__Entity_Involvement_New_Business_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Indirect Lending Business Identifiers --></label>
+        <name>LLC_BI__Indirect_Lending_Business_Identifiers</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Auto-Decision Criteria --></label>
+        <name>LLC_BI__Loan_Auto_Decision_Data</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Auto-Decision Overview --></label>
+        <name>LLC_BI__Loan_Auto_Decision_Overview</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Borrowing Structure Field Set --></label>
+        <name>LLC_BI__Product_Package_Borrowing_Structure</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Tier One Obligors --></label>
+        <name>LLC_BI__Product_Package_Tier_One_Obligors</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Tier Two Obligors --></label>
+        <name>LLC_BI__Product_Package_Tier_Two_Obligors</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Relationship Maintenance --></label>
+        <name>LLC_BI__Relationship_Maintenance_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Relationship Maintenance Snapshot --></label>
+        <name>LLC_BI__Relationship_Maintenance_Snapshot</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReviewDetailDisplay --></label>
+        <name>LLC_BI__ReviewDetailDisplay</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReviewDisplay --></label>
+        <name>LLC_BI__ReviewDisplay</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sole Proprietorship Card --></label>
+        <name>LLC_BI__Sole_Proprietorship_Card</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Third_Party_Management --></label>
+        <name>LLC_BI__Third_Party_Management</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Total_Exposure_Summary --></label>
+        <name>LLC_BI__Total_Exposure_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI_Relationship_Detail --></label>
+        <name>LLC_BI__UI_Relationship_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- nDesign Test --></label>
+        <name>nDESIGN__nDesign_Test</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Tree Grid Example --></label>
+        <name>nFORCE__Tree_Grid_Example</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI_Lookup_Fields --></label>
+        <name>nFORCE__UI_Lookup_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- nCino User Interface Test --></label>
+        <name>nFORCE__nCino_User_Interface_Test</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- nFORCE nCino User Interface Test Child --></label>
+        <name>nFORCE__nCino_User_Interface_Test_Child</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- nDesign Test --></label>
+        <name>nFORCE__nDesign_Test</name>
+    </fieldSets>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Access</value>
+        </caseValues>
+        <name>account_access</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Access Level</value>
+        </caseValues>
+        <name>account_access_level</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Contact Role</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Contact Roles</value>
+        </caseValues>
+        <name>account_contact_role</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Creator</value>
+        </caseValues>
+        <name>account_creator</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Currency</value>
+        </caseValues>
+        <name>account_currency</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Description</value>
+        </caseValues>
+        <name>account_description</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Detail Page</value>
+        </caseValues>
+        <name>account_detail_page</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Division</value>
+        </caseValues>
+        <name>account_division</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Edit</value>
+        </caseValues>
+        <name>account_edit</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Fax</value>
+        </caseValues>
+        <name>account_fax</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Fields</value>
+        </caseValues>
+        <name>account_field</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship General</value>
+        </caseValues>
+        <name>account_general</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Hierarchy</value>
+        </caseValues>
+        <name>account_hierarchy</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship History</value>
+        </caseValues>
+        <name>account_history</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship History Archive</value>
+        </caseValues>
+        <name>account_history_archive</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship History Report</value>
+        </caseValues>
+        <name>account_history_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship ID</value>
+        </caseValues>
+        <name>account_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Information</value>
+        </caseValues>
+        <name>account_information</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Name</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Names</value>
+        </caseValues>
+        <name>account_name</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Number</value>
+        </caseValues>
+        <name>account_number</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Owner</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Owners</value>
+        </caseValues>
+        <name>account_owner</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Owner Alias</value>
+        </caseValues>
+        <name>account_owner_alias</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Owner Report</value>
+        </caseValues>
+        <name>account_owner_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Owner Role</value>
+        </caseValues>
+        <name>account_owner_role</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Ownership</value>
+        </caseValues>
+        <name>account_ownership</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Phone</value>
+        </caseValues>
+        <name>account_phone</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Rating</value>
+        </caseValues>
+        <name>account_rating</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Record</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Records</value>
+        </caseValues>
+        <name>account_record</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Record Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Record Types</value>
+        </caseValues>
+        <name>account_record_type</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Reports</value>
+        </caseValues>
+        <name>account_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Sharing</value>
+        </caseValues>
+        <name>account_sharing</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Site</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Sites</value>
+        </caseValues>
+        <name>account_site</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Source</value>
+        </caseValues>
+        <name>account_source</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Stage ID</value>
+        </caseValues>
+        <name>account_stage_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Team</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Teams</value>
+        </caseValues>
+        <name>account_team</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Team Member</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Team Members</value>
+        </caseValues>
+        <name>account_team_member</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Team Member ID</value>
+        </caseValues>
+        <name>account_team_member_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Team Report</value>
+        </caseValues>
+        <name>account_team_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Territory</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Territories</value>
+        </caseValues>
+        <name>account_territory</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Tool</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Tools</value>
+        </caseValues>
+        <name>account_tool</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Types</value>
+        </caseValues>
+        <name>account_type</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship View</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Relationship Views</value>
+        </caseValues>
+        <name>account_view</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Relationship</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Parent Relationships</value>
+        </caseValues>
+        <name>parent_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Relationship Division</value>
+        </caseValues>
+        <name>parent_account_division</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Relationship ID</value>
+        </caseValues>
+        <name>parent_account_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Relationship Site</value>
+        </caseValues>
+        <name>parent_account_site</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Person Relationship Record</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Person Relationship Records</value>
+        </caseValues>
+        <name>person_account_record</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Relationship Type</value>
+        </caseValues>
+        <name>type_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Billing Address --></label>
+        <name>Billing_Address__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is your Business Mailing/Shipping Address the same as your Business Physical Address? --></help>
+        <label><!-- Mailing Address Same as Physical Address --></label>
+        <name>Business_Mailing_Address_Same_as_Physica__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Integration Source --></label>
+        <name>Integration_Source__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please denote if this is a Test Record. --></help>
+        <label><!-- Is this a Test? --></label>
+        <name>Is_this_a_Test__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AP Stress Index --></label>
+        <name>LLC_BI__AP_Stress_Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Review --></label>
+        <name>LLC_BI__Account_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- ActionFlag --></label>
+        <name>LLC_BI__ActionFlag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>LLC_BI__Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Automated Financials --></label>
+        <name>LLC_BI__Automated_Financials__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Ledger Balance --></label>
+        <name>LLC_BI__Average_Ledger_Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Unavailable --></label>
+        <name>LLC_BI__Average_Unavailable__c</name>
+    </fields>
+    <fields>
+        <help><!-- The code representing the party&apos;s reason for claiming exemption from backup withholding. The numeric codes are defined by the instructions contained within IRS Form W-9. --></help>
+        <label><!-- Backup Withholding Exempt Code --></label>
+        <name>LLC_BI__Backup_Withholding_Exempt_Code__c</name>
+        <picklistValues>
+            <masterLabel>Bank-operated 584(a) trust fund</masterLabel>
+            <translation><!-- Bank-operated 584(a) trust fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CFTC-registered futures commission merchant</masterLabel>
+            <translation><!-- CFTC-registered futures commission merchant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation><!-- Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fegistered under Investment Company Act</masterLabel>
+            <translation><!-- Fegistered under Investment Company Act --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial institution</masterLabel>
+            <translation><!-- Financial institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign government, agency or instrumentality</masterLabel>
+            <translation><!-- Foreign government, agency or instrumentality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRA or qualifying 501(a) or 403(b)(7) account</masterLabel>
+            <translation><!-- IRA or qualifying 501(a) or 403(b)(7) account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment community nominee</masterLabel>
+            <translation><!-- Investment community nominee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Investment Trust</masterLabel>
+            <translation><!-- Real Estate Investment Trust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Section 664 trust</masterLabel>
+            <translation><!-- Section 664 trust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. State, District, possession</masterLabel>
+            <translation><!-- U.S. State, District, possession --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. agency or instrumentality</masterLabel>
+            <translation><!-- U.S. agency or instrumentality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. registered securities or commodities dealer</masterLabel>
+            <translation><!-- U.S. registered securities or commodities dealer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If true the account holder has certified that he/she/it is exempt from backup withholding. --></help>
+        <label><!-- Backup Withholding Exempt Indicator --></label>
+        <name>LLC_BI__Backup_Withholding_Exempt_Indicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- If true the holder whose tax identification number (TIN) was used for backup withholding purposes is certifying that he/she/it is not subject to backup withholding. --></help>
+        <label><!-- Backup Withholding N/A Indicator --></label>
+        <name>LLC_BI__Backup_Withholding_N_A_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address County --></label>
+        <name>LLC_BI__Billing_Address_County__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booked Affiliated Exposure --></label>
+        <name>LLC_BI__Booked_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- The field the BOT uses to pull when it&apos;s supposed to wake up --></help>
+        <label><!-- Bot Date --></label>
+        <name>LLC_BI__Bot_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bot RMI --></label>
+        <name>LLC_BI__Bot_RMI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>LLC_BI__Branch__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Tax Return (EPC) --></label>
+        <name>LLC_BI__Business_Tax_Return_EPC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Tax Return (OC) --></label>
+        <name>LLC_BI__Business_Tax_Return_OC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Relationship Number --></label>
+        <name>LLC_BI__CIF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Committed Affiliated Exposure --></label>
+        <name>LLC_BI__Committed_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Committed Direct Exposure --></help>
+        <label><!-- Committed Direct Exposure --></label>
+        <name>LLC_BI__Committed_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Committed Indirect Exposure --></help>
+        <label><!-- Committed Indirect Exposure --></label>
+        <name>LLC_BI__Committed_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connection Identifier --></label>
+        <name>LLC_BI__Connection_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating --></label>
+        <name>LLC_BI__Credit_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Stats --></label>
+        <name>LLC_BI__Credit_Stats__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Situation --></label>
+        <name>LLC_BI__Current_Situation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>LLC_BI__CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DSC (Post OC) --></label>
+        <name>LLC_BI__DSC_Post_OC__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSC (Pre OC) --></label>
+        <name>LLC_BI__DSC_Pre_OC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Debt Service Coverage --></label>
+        <name>LLC_BI__Debt_Service_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Debt Service --></label>
+        <name>LLC_BI__Debt_Service__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field determines the default page within the nCino User Interface for this record. --></help>
+        <label><!-- Default App --></label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <help><!-- Direct Exposure --></help>
+        <label><!-- Direct Exposure --></label>
+        <name>LLC_BI__Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doing Business As --></label>
+        <name>LLC_BI__Doing_Business_As__c</name>
+    </fields>
+    <fields>
+        <help><!-- DUNS number utilized in lieu of Data.com field --></help>
+        <label><!-- D-U-N-S Number --></label>
+        <name>LLC_BI__Duns_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- This box should be checked if the Relationship is an Employee of your Financial Institution --></help>
+        <label><!-- Employee Relationship --></label>
+        <name>LLC_BI__Employee_Relationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engages in Internet Gambling --></label>
+        <name>LLC_BI__EngagesInInternetGambling__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- A description of the country in which the account holder was established if it was not established within the United States (applicable when the account holder is an entity). --></help>
+        <label><!-- Established Country --></label>
+        <name>LLC_BI__Established_Country__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan</masterLabel>
+            <translation><!-- Afghanistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albania</masterLabel>
+            <translation><!-- Albania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Algeria</masterLabel>
+            <translation><!-- Algeria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Samoa</masterLabel>
+            <translation><!-- American Samoa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andorra</masterLabel>
+            <translation><!-- Andorra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angola</masterLabel>
+            <translation><!-- Angola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anguilla</masterLabel>
+            <translation><!-- Anguilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antigua &amp; Barbuda</masterLabel>
+            <translation><!-- Antigua &amp; Barbuda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation><!-- Argentina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Armenia</masterLabel>
+            <translation><!-- Armenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aruba</masterLabel>
+            <translation><!-- Aruba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Azerbaijan</masterLabel>
+            <translation><!-- Azerbaijan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahamas, The</masterLabel>
+            <translation><!-- Bahamas, The --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahrain</masterLabel>
+            <translation><!-- Bahrain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangladesh</masterLabel>
+            <translation><!-- Bangladesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbados</masterLabel>
+            <translation><!-- Barbados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belarus</masterLabel>
+            <translation><!-- Belarus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation><!-- Belgium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belize</masterLabel>
+            <translation><!-- Belize --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benin</masterLabel>
+            <translation><!-- Benin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bermuda</masterLabel>
+            <translation><!-- Bermuda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bhutan</masterLabel>
+            <translation><!-- Bhutan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolivia</masterLabel>
+            <translation><!-- Bolivia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnia &amp; Herzegovina</masterLabel>
+            <translation><!-- Bosnia &amp; Herzegovina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Botswana</masterLabel>
+            <translation><!-- Botswana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>British Virgin Is.</masterLabel>
+            <translation><!-- British Virgin Is. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brunei</masterLabel>
+            <translation><!-- Brunei --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria</masterLabel>
+            <translation><!-- Bulgaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burkina Faso</masterLabel>
+            <translation><!-- Burkina Faso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burma</masterLabel>
+            <translation><!-- Burma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burundi</masterLabel>
+            <translation><!-- Burundi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambodia</masterLabel>
+            <translation><!-- Cambodia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cameroon</masterLabel>
+            <translation><!-- Cameroon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Verde</masterLabel>
+            <translation><!-- Cape Verde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cayman Islands</masterLabel>
+            <translation><!-- Cayman Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central African Rep.</masterLabel>
+            <translation><!-- Central African Rep. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chad</masterLabel>
+            <translation><!-- Chad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia</masterLabel>
+            <translation><!-- Colombia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comoros</masterLabel>
+            <translation><!-- Comoros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo, Dem. Rep.</masterLabel>
+            <translation><!-- Congo, Dem. Rep. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo, Repub. of the</masterLabel>
+            <translation><!-- Congo, Repub. of the --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cook Islands</masterLabel>
+            <translation><!-- Cook Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation><!-- Costa Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cote d&apos;Ivoire</masterLabel>
+            <translation><!-- Cote d&apos;Ivoire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation><!-- Croatia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuba</masterLabel>
+            <translation><!-- Cuba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus</masterLabel>
+            <translation><!-- Cyprus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation><!-- Czech Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation><!-- Denmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djibouti</masterLabel>
+            <translation><!-- Djibouti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominica</masterLabel>
+            <translation><!-- Dominica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Republic</masterLabel>
+            <translation><!-- Dominican Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Timor</masterLabel>
+            <translation><!-- East Timor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador</masterLabel>
+            <translation><!-- Ecuador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt</masterLabel>
+            <translation><!-- Egypt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salvador</masterLabel>
+            <translation><!-- El Salvador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equatorial Guinea</masterLabel>
+            <translation><!-- Equatorial Guinea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eritrea</masterLabel>
+            <translation><!-- Eritrea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia</masterLabel>
+            <translation><!-- Estonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethiopia</masterLabel>
+            <translation><!-- Ethiopia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faroe Islands</masterLabel>
+            <translation><!-- Faroe Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiji</masterLabel>
+            <translation><!-- Fiji --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation><!-- Finland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Guiana</masterLabel>
+            <translation><!-- French Guiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Polynesia</masterLabel>
+            <translation><!-- French Polynesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabon</masterLabel>
+            <translation><!-- Gabon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gambia, The</masterLabel>
+            <translation><!-- Gambia, The --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gaza Strip</masterLabel>
+            <translation><!-- Gaza Strip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghana</masterLabel>
+            <translation><!-- Ghana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gibraltar</masterLabel>
+            <translation><!-- Gibraltar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation><!-- Greece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenland</masterLabel>
+            <translation><!-- Greenland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grenada</masterLabel>
+            <translation><!-- Grenada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guadeloupe</masterLabel>
+            <translation><!-- Guadeloupe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guam</masterLabel>
+            <translation><!-- Guam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guatemala</masterLabel>
+            <translation><!-- Guatemala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guernsey</masterLabel>
+            <translation><!-- Guernsey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea</masterLabel>
+            <translation><!-- Guinea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea-Bissau</masterLabel>
+            <translation><!-- Guinea-Bissau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guyana</masterLabel>
+            <translation><!-- Guyana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haiti</masterLabel>
+            <translation><!-- Haiti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honduras</masterLabel>
+            <translation><!-- Honduras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hong Kong</masterLabel>
+            <translation><!-- Hong Kong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation><!-- Hungary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland</masterLabel>
+            <translation><!-- Iceland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation><!-- Indonesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iran</masterLabel>
+            <translation><!-- Iran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iraq</masterLabel>
+            <translation><!-- Iraq --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation><!-- Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isle of Man</masterLabel>
+            <translation><!-- Isle of Man --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Israel</masterLabel>
+            <translation><!-- Israel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamaica</masterLabel>
+            <translation><!-- Jamaica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jersey</masterLabel>
+            <translation><!-- Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan</masterLabel>
+            <translation><!-- Jordan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kazakhstan</masterLabel>
+            <translation><!-- Kazakhstan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kenya</masterLabel>
+            <translation><!-- Kenya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiribati</masterLabel>
+            <translation><!-- Kiribati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, North</masterLabel>
+            <translation><!-- Korea, North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, South</masterLabel>
+            <translation><!-- Korea, South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuwait</masterLabel>
+            <translation><!-- Kuwait --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kyrgyzstan</masterLabel>
+            <translation><!-- Kyrgyzstan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laos</masterLabel>
+            <translation><!-- Laos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation><!-- Latvia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebanon</masterLabel>
+            <translation><!-- Lebanon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lesotho</masterLabel>
+            <translation><!-- Lesotho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberia</masterLabel>
+            <translation><!-- Liberia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libya</masterLabel>
+            <translation><!-- Libya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein</masterLabel>
+            <translation><!-- Liechtenstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania</masterLabel>
+            <translation><!-- Lithuania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation><!-- Luxembourg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macau</masterLabel>
+            <translation><!-- Macau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macedonia</masterLabel>
+            <translation><!-- Macedonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madagascar</masterLabel>
+            <translation><!-- Madagascar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malawi</masterLabel>
+            <translation><!-- Malawi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation><!-- Malaysia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maldives</masterLabel>
+            <translation><!-- Maldives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mali</masterLabel>
+            <translation><!-- Mali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation><!-- Malta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marshall Islands</masterLabel>
+            <translation><!-- Marshall Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martinique</masterLabel>
+            <translation><!-- Martinique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritania</masterLabel>
+            <translation><!-- Mauritania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritius</masterLabel>
+            <translation><!-- Mauritius --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mayotte</masterLabel>
+            <translation><!-- Mayotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Micronesia, Fed. St.</masterLabel>
+            <translation><!-- Micronesia, Fed. St. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moldova</masterLabel>
+            <translation><!-- Moldova --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monaco</masterLabel>
+            <translation><!-- Monaco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mongolia</masterLabel>
+            <translation><!-- Mongolia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morocco</masterLabel>
+            <translation><!-- Morocco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique</masterLabel>
+            <translation><!-- Mozambique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N. Mariana Islands</masterLabel>
+            <translation><!-- N. Mariana Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia</masterLabel>
+            <translation><!-- Namibia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nauru</masterLabel>
+            <translation><!-- Nauru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepal</masterLabel>
+            <translation><!-- Nepal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands Antilles</masterLabel>
+            <translation><!-- Netherlands Antilles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Caledonia</masterLabel>
+            <translation><!-- New Caledonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicaragua</masterLabel>
+            <translation><!-- Nicaragua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niger</masterLabel>
+            <translation><!-- Niger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nigeria</masterLabel>
+            <translation><!-- Nigeria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation><!-- Norway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oman</masterLabel>
+            <translation><!-- Oman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan</masterLabel>
+            <translation><!-- Pakistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palau</masterLabel>
+            <translation><!-- Palau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama</masterLabel>
+            <translation><!-- Panama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papua New Guinea</masterLabel>
+            <translation><!-- Papua New Guinea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraguay</masterLabel>
+            <translation><!-- Paraguay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation><!-- Peru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation><!-- Puerto Rico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qatar</masterLabel>
+            <translation><!-- Qatar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reunion</masterLabel>
+            <translation><!-- Reunion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation><!-- Romania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda</masterLabel>
+            <translation><!-- Rwanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Helena</masterLabel>
+            <translation><!-- Saint Helena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Kitts &amp; Nevis</masterLabel>
+            <translation><!-- Saint Kitts &amp; Nevis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Lucia</masterLabel>
+            <translation><!-- Saint Lucia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Vincent and the Grenadines</masterLabel>
+            <translation><!-- Saint Vincent and the Grenadines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoa</masterLabel>
+            <translation><!-- Samoa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Marino</masterLabel>
+            <translation><!-- San Marino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sao Tome &amp; Principe</masterLabel>
+            <translation><!-- Sao Tome &amp; Principe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saudi Arabia</masterLabel>
+            <translation><!-- Saudi Arabia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senegal</masterLabel>
+            <translation><!-- Senegal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbia</masterLabel>
+            <translation><!-- Serbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seychelles</masterLabel>
+            <translation><!-- Seychelles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Leone</masterLabel>
+            <translation><!-- Sierra Leone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia</masterLabel>
+            <translation><!-- Slovakia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia</masterLabel>
+            <translation><!-- Slovenia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solomon Islands</masterLabel>
+            <translation><!-- Solomon Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somalia</masterLabel>
+            <translation><!-- Somalia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Lanka</masterLabel>
+            <translation><!-- Sri Lanka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St Pierre &amp; Miquelon</masterLabel>
+            <translation><!-- St Pierre &amp; Miquelon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sudan</masterLabel>
+            <translation><!-- Sudan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suriname</masterLabel>
+            <translation><!-- Suriname --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swaziland</masterLabel>
+            <translation><!-- Swaziland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation><!-- Sweden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syria</masterLabel>
+            <translation><!-- Syria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan</masterLabel>
+            <translation><!-- Taiwan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tajikistan</masterLabel>
+            <translation><!-- Tajikistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanzania</masterLabel>
+            <translation><!-- Tanzania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation><!-- Thailand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Togo</masterLabel>
+            <translation><!-- Togo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonga</masterLabel>
+            <translation><!-- Tonga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trinidad &amp; Tobago</masterLabel>
+            <translation><!-- Trinidad &amp; Tobago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tunisia</masterLabel>
+            <translation><!-- Tunisia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkmenistan</masterLabel>
+            <translation><!-- Turkmenistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turks &amp; Caicos Is</masterLabel>
+            <translation><!-- Turks &amp; Caicos Is --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuvalu</masterLabel>
+            <translation><!-- Tuvalu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uganda</masterLabel>
+            <translation><!-- Uganda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukraine</masterLabel>
+            <translation><!-- Ukraine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Arab Emirates</masterLabel>
+            <translation><!-- United Arab Emirates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation><!-- United Kingdom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States</masterLabel>
+            <translation><!-- United States --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay</masterLabel>
+            <translation><!-- Uruguay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uzbekistan</masterLabel>
+            <translation><!-- Uzbekistan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanuatu</masterLabel>
+            <translation><!-- Vanuatu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venezuela</masterLabel>
+            <translation><!-- Venezuela --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation><!-- Vietnam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virgin Islands</masterLabel>
+            <translation><!-- Virgin Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallis and Futuna</masterLabel>
+            <translation><!-- Wallis and Futuna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Bank</masterLabel>
+            <translation><!-- West Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Sahara</masterLabel>
+            <translation><!-- Western Sahara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yemen</masterLabel>
+            <translation><!-- Yemen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia</masterLabel>
+            <translation><!-- Zambia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimbabwe</masterLabel>
+            <translation><!-- Zimbabwe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field contains the ID of the credit report that was used to populate the other FICO fields. --></help>
+        <label><!-- FICO Credit Report --></label>
+        <name>LLC_BI__FICO_Credit_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- FICO Date --></label>
+        <name>LLC_BI__FICO_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- FICO Score --></label>
+        <name>LLC_BI__FICO_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicated the source of the credit score information. --></help>
+        <label><!-- FICO Source --></label>
+        <name>LLC_BI__FICO_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facility --></label>
+        <name>LLC_BI__Facility__c</name>
+        <picklistValues>
+            <masterLabel>Leased</masterLabel>
+            <translation><!-- Leased --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owned</masterLabel>
+            <translation><!-- Owned --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This indicates whether the financial institution possesses a valid and up-to-date trust agreement for this trust account. --></help>
+        <label><!-- Filed Trust --></label>
+        <name>LLC_BI__Filed_Trust__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financials Opt Out --></label>
+        <name>LLC_BI__Financials_Opt_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fiscal Year End --></label>
+        <name>LLC_BI__Fiscal_Year_End__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the publicly-traded NFFE corporation with which the beneficial owner is related by affiliation. --></help>
+        <label><!-- Form W8 Affiliated NFFE --></label>
+        <name>LLC_BI__Form_W8_Affiliated_NFFE__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date the beneficial owner (non-financial entity) filed for liquidation or bankruptcy, as certified by IRS forms W-8. --></help>
+        <label><!-- Form W8 Bankruptcy Date --></label>
+        <name>LLC_BI__Form_W8_Bankruptcy_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the account holder is a disregarded entity or branch of a disregarded entity that is a Foreign Financial Institution (FFI), enter the type of FFI (for purposes of IRS Forms W-8, e.g., form W-8BEN-E). --></help>
+        <label><!-- Form W8 Disregarded Entity FFI Type --></label>
+        <name>LLC_BI__Form_W8_Disregarded_Entity_FFI_Type__c</name>
+        <picklistValues>
+            <masterLabel>Nonparticipating FFI</masterLabel>
+            <translation><!-- Nonparticipating FFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participating FFI</masterLabel>
+            <translation><!-- Participating FFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting Model 1 FFI</masterLabel>
+            <translation><!-- Reporting Model 1 FFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting Model 2 FFI</masterLabel>
+            <translation><!-- Reporting Model 2 FFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Branch</masterLabel>
+            <translation><!-- U.S. Branch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates type of documentation that the Owner-Documented Foreign Financial Institution (FFI) will provide (either an independent law firm&apos;s audit letter, or other alternative reporting statements), as prescribed by IRS forms W-8. --></help>
+        <label><!-- Form W8 FFI Documentation Type --></label>
+        <name>LLC_BI__Form_W8_FFI_Documentation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Auditor&apos;s Letter</masterLabel>
+            <translation><!-- Auditor&apos;s Letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting Statement on Individual Primaries</masterLabel>
+            <translation><!-- Reporting Statement on Individual Primaries --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The country with which the US has an intergovernmental agreement (IGA), under which the beneficial owner qualifies as a nonreporting foreign financial institution (FFI). --></help>
+        <label><!-- Form W8 IGA Country --></label>
+        <name>LLC_BI__Form_W8_IGA_Country__c</name>
+    </fields>
+    <fields>
+        <help><!-- The applicable intergovernmental agreement&apos;s (IGA&apos;s) term/description for the type of entity that includes the beneficial owner. --></help>
+        <label><!-- Form W8 IGA Entity Description --></label>
+        <name>LLC_BI__Form_W8_IGA_Entity_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- The entity that is a &apos;Nonreporting IGA FFI&apos; is also treated as a registered deemed-compliant FFI under a &apos;Model 2&apos; IGA, as defined in Part XII of IRS form W-8BEN-E. --></help>
+        <label><!-- Form W8 Model 2 Indicator --></label>
+        <name>LLC_BI__Form_W8_Model_2_Indicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether the beneficial owner is the NFFE corporation in question, or the affiliate of said corporation, as prescribed and certified by IRS forms W-8. --></help>
+        <label><!-- Form W8 NFFE Type --></label>
+        <name>LLC_BI__Form_W8_NFFE_Type__c</name>
+        <picklistValues>
+            <masterLabel>Affiliate of Publicly-Traded NFFE</masterLabel>
+            <translation><!-- Affiliate of Publicly-Traded NFFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publicly-Traded NFFE (not an affiliate)</masterLabel>
+            <translation><!-- Publicly-Traded NFFE (not an affiliate) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates the beneficial owner certifies it is an owner-documented FFI that is also a Trust without contingent or other unidentified beneficiaries, as prescribed by IRS forms W-8. --></help>
+        <label><!-- Form W8 Owner Trust Indicator --></label>
+        <name>LLC_BI__Form_W8_Owner_Trust_Indicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the type of owner (or &apos;Chapter 3 Status&apos;) that is listed on the applicable IRS Form W-8. --></help>
+        <label><!-- Form W8 Owner Type --></label>
+        <name>LLC_BI__Form_W8_Owner_Type__c</name>
+        <picklistValues>
+            <masterLabel>Central Bank of Issue</masterLabel>
+            <translation><!-- Central Bank of Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complex Trust</masterLabel>
+            <translation><!-- Complex Trust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation><!-- Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disregarded Entity (hybrid/treaty claim)</masterLabel>
+            <translation><!-- Disregarded Entity (hybrid/treaty claim) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disregarded Entity (non-hybrid)</masterLabel>
+            <translation><!-- Disregarded Entity (non-hybrid) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation><!-- Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grantor Trust (hybrid/treaty claim)</masterLabel>
+            <translation><!-- Grantor Trust (hybrid/treaty claim) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grantor Trust (non-hybrid)</masterLabel>
+            <translation><!-- Grantor Trust (non-hybrid) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership (hybrid/treaty claim)</masterLabel>
+            <translation><!-- Partnership (hybrid/treaty claim) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership (non-hybrid)</masterLabel>
+            <translation><!-- Partnership (non-hybrid) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Foundation</masterLabel>
+            <translation><!-- Private Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple Trust (hybrid/treaty claim)</masterLabel>
+            <translation><!-- Simple Trust (hybrid/treaty claim) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple Trust (non-hybrid)</masterLabel>
+            <translation><!-- Simple Trust (non-hybrid) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax-exempt Organization</masterLabel>
+            <translation><!-- Tax-exempt Organization --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Describes any reference numbers that will be useful to the withholding agent while processing the W-8BEN (Certificate of Foreign Status of Beneficial Owner for United States Tax Withholding). --></help>
+        <label><!-- Form W8 Reference Number Description --></label>
+        <name>LLC_BI__Form_W8_Reference_Number_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates type of distribution agreement type for the Restricted Distributor. --></help>
+        <label><!-- Form W8 Restricted Distributor Type --></label>
+        <name>LLC_BI__Form_W8_Restricted_Distributor_Type__c</name>
+        <picklistValues>
+            <masterLabel>Current Prohibition Plus Preexisting Accounts Review Completed</masterLabel>
+            <translation><!-- Current Prohibition Plus Preexisting Accounts Review Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Previous and Current US Sales Prohibition</masterLabel>
+            <translation><!-- Previous and Current US Sales Prohibition --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The name of the securities market (or the name of one such securities market, if more than one) upon which the publicly-traded NFFE corporation&apos;s stock is regularly traded. --></help>
+        <label><!-- Form W8 Security Market Name --></label>
+        <name>LLC_BI__Form_W8_Security_Market_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies an individual signer for a (non-US) entity who can (and will certify that they can) sign Forms W-8 on behalf of the entity. --></help>
+        <label><!-- Form W8 Signer Indicator --></label>
+        <name>LLC_BI__Form_W8_Signer_Indicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- The percentage rate of withholding on the specific type of income on the W-8BEN (Certificate of Foreign Status of Beneficial Owner for United States Tax Withholding). --></help>
+        <label><!-- Form W8 Special Claim Rate --></label>
+        <name>LLC_BI__Form_W8_Special_Claim_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Describes the reason the owner meets the terms of the treaty article on the W-8BEN (Certificate of Foreign Status of Beneficial Owner for United States Tax Withholding). --></help>
+        <label><!-- Form W8 Special Claim Reason --></label>
+        <name>LLC_BI__Form_W8_Special_Claim_Reason__c</name>
+    </fields>
+    <fields>
+        <help><!-- Describes the type of income the owner is using to claim treaty benefits on the W-8BEN (Certificate of Foreign Status of Beneficial Owner for United States Tax Withholding). --></help>
+        <label><!-- Form W8 Special Income Description --></label>
+        <name>LLC_BI__Form_W8_Special_Income_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the sponsoring entity for the beneficial owner, these entities are defined by IRS forms W-8. --></help>
+        <label><!-- Form W8 Sponsor Entity Name --></label>
+        <name>LLC_BI__Form_W8_Sponsor_Entity_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The beneficial owner is a sponsored Foreign Financial Institution (FII) without a GIIN number prior to 1/1/16 for purposes of IRS forms W-8 --></help>
+        <label><!-- Form W8 Sponsored FFI Type --></label>
+        <name>LLC_BI__Form_W8_Sponsored_FFI_Type__c</name>
+        <picklistValues>
+            <masterLabel>FFI Foreign Section 957a Corporation</masterLabel>
+            <translation><!-- FFI Foreign Section 957a Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FFI Investment Entity</masterLabel>
+            <translation><!-- FFI Investment Entity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The date the start-up company was formed (or date of board resolution approving the new line of business). --></help>
+        <label><!-- Form W8 Start Up Date --></label>
+        <name>LLC_BI__Form_W8_Start_Up_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If true the owner is not an individual derives the income for which the treaty benefits are claimed. --></help>
+        <label><!-- Form W8 Treaty Limitation Provision --></label>
+        <name>LLC_BI__Form_W8_Treaty_Limitation_Provision_Ind__c</name>
+    </fields>
+    <fields>
+        <help><!-- If true the owner is not an individual is claiming treaty benefits for dividends. --></help>
+        <label><!-- Form W8 Treaty Qualified Resident Status --></label>
+        <name>LLC_BI__Form_W8_Treaty_Qualified_Resident_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- If true a separate TIN certification (i.e. a W-9) is desired. --></help>
+        <label><!-- Form W9 Seperat TIN Certification --></label>
+        <name>LLC_BI__Form_W9_Seperat_TIN_Certification_Ind__c</name>
+    </fields>
+    <fields>
+        <help><!-- The GIIN of the disregarded entity account holder. (Global Intermediary Identification Number.) --></help>
+        <label><!-- GIIN --></label>
+        <name>LLC_BI__GIIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Global Cash Flow --></label>
+        <name>LLC_BI__Global_Cash_Flow__c</name>
+    </fields>
+    <fields>
+        <help><!-- The governing law state of the trust. --></help>
+        <label><!-- Governing Law State --></label>
+        <name>LLC_BI__Governing_Law_State__c</name>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation><!-- Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation><!-- North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation><!-- North Dakota --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field is automatically filled with the highest risk grade loan associated to this account --></help>
+        <label><!-- Risk Grade --></label>
+        <name>LLC_BI__Highest_Risk_Grade__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indirect Exposure --></help>
+        <label><!-- Indirect Exposure --></label>
+        <name>LLC_BI__Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Manually populate this lookup field to define the Institution to which an account belongs. --></help>
+        <label><!-- Institution --></label>
+        <name>LLC_BI__Institution__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Interim Statement --></label>
+        <name>LLC_BI__Interim_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Individual --></label>
+        <name>LLC_BI__Is_Individual__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox to indicate affiliation with the financial institution. --></help>
+        <label><!-- Is Institution Affiliated --></label>
+        <name>LLC_BI__Is_Institution_Affiliated__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox when the added entity is a third-party entity. --></help>
+        <label><!-- Is Non-Customer --></label>
+        <name>LLC_BI__Is_Non_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Exposure Calculation Date --></label>
+        <name>LLC_BI__Last_Exposure_Calc_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Review Date --></label>
+        <name>LLC_BI__Last_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Site Visit --></label>
+        <name>LLC_BI__Last_Site_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Limited Liability Management Type --></label>
+        <name>LLC_BI__Limited_Liability_Management_Type__c</name>
+        <picklistValues>
+            <masterLabel>Manager Managed</masterLabel>
+            <translation><!-- Manager Managed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Managed</masterLabel>
+            <translation><!-- Member Managed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Loan Name --></label>
+        <name>LLC_BI__Loan_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Loan Numbers --></label>
+        <name>LLC_BI__Loan_Numbers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Users select or integration populates this optional boolean field to indicate if a consumer qualifies for the Military Lending Act when creating or updating a relationship. --></help>
+        <label><!-- MLA Status --></label>
+        <name>LLC_BI__MLA_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Management Experience the individual has in their industry - expressed in Years. --></help>
+        <label><!-- Management Experience --></label>
+        <name>LLC_BI__Management_Experience__c</name>
+    </fields>
+    <fields>
+        <help><!-- NaicsDesc Description utilized in lieu of Data.com field --></help>
+        <label><!-- NaicsDesc --></label>
+        <name>LLC_BI__NaicsDesc__c</name>
+    </fields>
+    <fields>
+        <label><!-- NAICS Code --></label>
+        <name>LLC_BI__Naics_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Review Date --></label>
+        <name>LLC_BI__Next_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Signers --></label>
+        <name>LLC_BI__Number_of_Signers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>LLC_BI__NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partnership Type --></label>
+        <name>LLC_BI__Partnership_Type__c</name>
+        <picklistValues>
+            <masterLabel>General Partnership</masterLabel>
+            <translation><!-- General Partnership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Partnership</masterLabel>
+            <translation><!-- Limited Liability Partnership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Partnership</masterLabel>
+            <translation><!-- Limited Partnership --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Personal Fin Statements --></label>
+        <name>LLC_BI__Personal_Fin_Statements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pers. &amp; Bus. Liquidity --></label>
+        <name>LLC_BI__Personal_Liquidity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personal Tax Return --></label>
+        <name>LLC_BI__Personal_Tax_Return__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number Type --></label>
+        <name>LLC_BI__Phone_Number_Type__c</name>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation><!-- Work --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pod --></label>
+        <name>LLC_BI__Pod__c</name>
+        <picklistValues>
+            <masterLabel>Cypress</masterLabel>
+            <translation><!-- Cypress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dogwood</masterLabel>
+            <translation><!-- Dogwood --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If true the holder of the account will certify that they have previously had a transaction account at a financial institution within the last 12 months. --></help>
+        <label><!-- Previous Financial Account Indicator --></label>
+        <name>LLC_BI__Previous_Financial_Account_Indicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the previous financial institution of the account holder. --></help>
+        <label><!-- Previous Financial Institution Name --></label>
+        <name>LLC_BI__Previous_Financial_Institution_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposed Affiliated Exposure --></label>
+        <name>LLC_BI__Proposed_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Proposed Direct Exposure --></help>
+        <label><!-- Proposed Direct Exposure --></label>
+        <name>LLC_BI__Proposed_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Proposed Indirect Exposure --></help>
+        <label><!-- Proposed Indirect Exposure --></label>
+        <name>LLC_BI__Proposed_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field should be checked if Regulation O applies to this Relationship --></help>
+        <label><!-- Reg O Relationship --></label>
+        <name>LLC_BI__Reg_O_Relationship__c</name>
+    </fields>
+    <fields>
+        <help><!-- Custom field to segment Accounts by Region --></help>
+        <label><!-- Region --></label>
+        <name>LLC_BI__Region__c</name>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation><!-- East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North</masterLabel>
+            <translation><!-- North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South</masterLabel>
+            <translation><!-- South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation><!-- West --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Relationship Class --></label>
+        <name>LLC_BI__Relationship_Class__c</name>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Relationship Number --></label>
+        <name>LLC_BI__Relationship_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Expressed as a percent --></help>
+        <label><!-- Revenue Growth % --></label>
+        <name>LLC_BI__Revenue_Growth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Frequency --></label>
+        <name>LLC_BI__Review_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation><!-- Annually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 Months</masterLabel>
+            <translation><!-- Every 2 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation><!-- Semi-Annually --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Status of the Account Review --></help>
+        <label><!-- Review Status --></label>
+        <name>LLC_BI__Review_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Risk Grade Template --></label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Rating Review Date Decisioned --></label>
+        <name>LLC_BI__Risk_Rating_Review_Date_Decisioned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Rating Review Grade --></label>
+        <name>LLC_BI__Risk_Rating_Review_Grade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Rating Review Status --></label>
+        <name>LLC_BI__Risk_Rating_Review_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>LLC_BI__SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>LLC_BI__SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>LLC_BI__SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address County --></label>
+        <name>LLC_BI__Shipping_Address_County__c</name>
+    </fields>
+    <fields>
+        <label><!-- State of Incorporation --></label>
+        <name>LLC_BI__State_of_Incorporation__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The beginning of the date range in which the BOT will request from the relationship being serviced --></help>
+        <label><!-- Statement From Date --></label>
+        <name>LLC_BI__Statement_From_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The end of the date range in which the BOT will request from the relationship being serviced --></help>
+        <label><!-- Statement To Date --></label>
+        <name>LLC_BI__Statement_To_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax Identification Number --></label>
+        <name>LLC_BI__Tax_Identification_Number_PE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Identification Number --></label>
+        <name>LLC_BI__Tax_Identification_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the third party type of the added entity. --></help>
+        <label><!-- Third Party Type --></label>
+        <name>LLC_BI__Third_Party__c</name>
+        <picklistValues>
+            <masterLabel>Appraiser</masterLabel>
+            <translation><!-- Appraiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation><!-- Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspector</masterLabel>
+            <translation><!-- Inspector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Agency</masterLabel>
+            <translation><!-- Insurance Agency --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Affiliated Exposure --></label>
+        <name>LLC_BI__Total_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Direct Exposure --></label>
+        <name>LLC_BI__Total_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Indirect Exposure --></help>
+        <label><!-- Total Indirect Exposure --></label>
+        <name>LLC_BI__Total_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Net New Funds --></help>
+        <label><!-- Total Net New Funds --></label>
+        <name>LLC_BI__Total_Net_New_Funds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Participation Amount --></label>
+        <name>LLC_BI__Total_Participation_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- An example Rollup Summary field that adds all of the account&apos;s won opportunities. --></help>
+        <label><!-- Total Won Opportunities --></label>
+        <name>LLC_BI__Total_Won_Opportunities__c</name>
+    </fields>
+    <fields>
+        <help><!-- The established date of the trust. --></help>
+        <label><!-- Trust Established Date --></label>
+        <name>LLC_BI__Trust_Established_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the trust type based on whether the trust grantor (creator) is the same or different from the trustee or if the grantor is deceased. --></help>
+        <label><!-- Trust Type --></label>
+        <name>LLC_BI__Trust_Type__c</name>
+        <picklistValues>
+            <masterLabel>Declaration of trust (grantor and trustee same)</masterLabel>
+            <translation><!-- Declaration of trust (grantor and trustee same) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testamentary trust (under will of deceased grantor)</masterLabel>
+            <translation><!-- Testamentary trust (under will of deceased grantor) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust under agreement (grantor and trustee different)</masterLabel>
+            <translation><!-- Trust under agreement (grantor and trustee different) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>LLC_BI__UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- These are the options that indicate whether the financial institution possesses a valid and up-to-date resolution for the commercial account owner, or if a resolution needs to be included in the transaction workflow. --></help>
+        <label><!-- Valid Resolution Type --></label>
+        <name>LLC_BI__Valid_Resolution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer providing- not needed</masterLabel>
+            <translation><!-- Customer providing- not needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No resolution on file or updating- complete now</masterLabel>
+            <translation><!-- No resolution on file or updating- complete now --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No resolution on file or updating- print to complete later</masterLabel>
+            <translation><!-- No resolution on file or updating- print to complete later --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution on file- not needed</masterLabel>
+            <translation><!-- Resolution on file- not needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation><!-- Waived --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Relationship ID</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration ID --></label>
+        <name>Migration_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Manager Identifier --></label>
+        <name>NDOC__Document_Manager_Identifier__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Account</masterLabel>
+            <translation><!-- Special Account --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Secured Exposure --></label>
+        <name>Total_Secured_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry Code --></label>
+        <name>cm_Industry_Code_Lookup__c</name>
+        <relationshipLabel><!-- Relationships --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Industry Code --></label>
+        <name>cm_Industry_Code__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact --></label>
+        <name>cm_Primary_Contact__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>nCRED__SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description><!-- Select &quot;Business&quot; to add a Corporation, Partnership, or other business relationship type. --></description>
+        <label><!-- Business --></label>
+        <name>LLC_BI__Business</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Select &quot;Household&quot; if you&apos;re adding a Household relationship type. --></description>
+        <label><!-- Household --></label>
+        <name>LLC_BI__Household</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Select &quot;Individual&quot; to add an Individual relationship type. --></description>
+        <label><!-- Individual --></label>
+        <name>LLC_BI__Individual</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Select &quot;Lender&quot; if you are adding a Financial Institution or Institutional Investor relationship type. --></description>
+        <label><!-- Lender --></label>
+        <name>LLC_BI__Lender</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Tax Identification Number cannot exceed 11 characters --></errorMessage>
+        <name>LLC_BI__Tax_Identification_Max_Length</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Statement To Date cannot be earlier than Statement from Date. --></errorMessage>
+        <name>LLC_BI__To_date_cannot_be_before_from_d_ate</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Account_Spread_Button --></label>
+        <name>LLC_BI__Account_Spread_Button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>LLC_BI__Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DocuSign --></label>
+        <name>LLC_BI__DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Actions --></label>
+        <name>LLC_BI__Mass_Actions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Deposit --></label>
+        <name>LLC_BI__New_Deposit</name>
+    </webLinks>
+    <webLinks>
+        <label>Onboard New Customer</label>
+        <name>LLC_BI__create_new_customer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- review --></label>
+        <name>LLC_BI__review</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Underwriting --></label>
+        <name>Underwriting</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- StatementLauncher --></label>
+        <name>nCRED__StatementLauncher</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>nFORMS__Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Form_Generation --></label>
+        <name>nFORMS__Form_Generation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Verifications --></label>
+        <name>nFUSE__Verifications</name>
+    </webLinks>
+</CustomObjectTranslation>

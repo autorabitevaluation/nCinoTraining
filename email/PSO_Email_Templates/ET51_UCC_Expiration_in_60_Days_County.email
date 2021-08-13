@@ -1,0 +1,14 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div><br></div><div><br></div><div><br></div>Hello&nbsp;<span style="background-color: rgb(255, 255, 255);">{!Organization.Name}&nbsp;</span>Team Member,
+<br>
+<br>UCC Expiration for Collateral {!LLC_BI__Loan_Collateral__c.LLC_BI__UCC_Expiration_County__c} is in 60 Days.
+<br>
+<br>County UCC Expiration Date: {!LLC_BI__Loan_Collateral__c.LLC_BI__UCC_Expiration_County__c}
+<br>
+<br>For more details: {!LLC_BI__Loan_Collateral__c.Link}
+<br>
+<br>nCino<div><br></div><div style="text-align: right;">ET51</div>]]></td>
+</tr>
+</table>

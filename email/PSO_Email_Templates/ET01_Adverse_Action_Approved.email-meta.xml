@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to send an alert when an adverse action is approved by 2nd level review</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET01 - Adverse Action Approved</name>
+    <style>freeForm</style>
+    <subject>*** Loan: &apos;{!LLC_BI__Loan__c.Name}&apos; has been Declined ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+Loan &quot;{!LLC_BI__Loan__c.Name}&quot; was declined and 2nd Level Review is now complete. The Loan was declined for the following reasons:
+
+1) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_1__c}
+2) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_2__c}
+3) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_3__c}
+4) {!LLC_BI__Adverse_Action__c.LLC_BI__Decline_Reason_4__c}
+
+Declined by:  {!ApprovalRequest.Process_Approver}
+
+Declination Comments:  {!ApprovalRequest.Comments}
+
+The Declination Process is now final. Any required Adverse Action notices should be prepared and sent at this time.
+
+You can access the Loan details here: {!LLC_BI__Loan__c.Link}
+
+You can access the Adverse Action details here: {!LLC_BI__Adverse_Action__c.Link}
+
+nCino
+
+ET01</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

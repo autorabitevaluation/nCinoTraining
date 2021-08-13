@@ -1,0 +1,14 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Hello&nbsp;<span style="background-color: rgb(255, 255, 255);">{!Organization.Name}&nbsp;</span>Team Member,
+<br>
+<br>This email is a reminder that Covenant "{!LLC_BI__Covenant__c.Name}" is 60 days from its next evaluation date.
+<br> 
+<br>Next Evaluation Date: {!LLC_BI__Covenant__c.LLC_BI__Next_Evaluation_Date__c}
+<br>
+<br>Please click here for full Covenant details: {!LLC_BI__Covenant__c.Link}
+<br>
+<br>nCino<div><br></div><div style="text-align: right;">ET15</div>]]></td>
+</tr>
+</table>

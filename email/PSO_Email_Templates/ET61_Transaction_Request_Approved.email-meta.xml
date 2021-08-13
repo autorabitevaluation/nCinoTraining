@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notifiy Transaction Request(Draw) was Approved</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET61- Tranaction Request Approved</name>
+    <style>freeForm</style>
+    <subject>***{!LLC_BI__Transaction_Request__c.Name} has been Approved***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+Your &quot;{!LLC_BI__Transaction_Request__c.Name}&quot; has been Approved.
+
+Loan: {!LLC_BI__Transaction_Request__c.LLC_BI__Loan__c}
+Amount Requested:{!LLC_BI__Transaction_Request__c.LLC_BI__Amount_Requested__c}
+Amount Funded: {!LLC_BI__Transaction_Request__c.LLC_BI__Amount_Funded__c}
+
+Please use this link to visit the Valuation:
+{!LLC_BI__Transaction_Request__c.Link}
+
+nCino
+ET61</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

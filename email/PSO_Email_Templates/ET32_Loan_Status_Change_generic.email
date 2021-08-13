@@ -1,0 +1,22 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Hello&nbsp;<span style="background-color: rgb(255, 255, 255);">{!Organization.Name}&nbsp;</span>Team Member,
+<br>
+<br>The status of Loan "{!LLC_BI__Loan__c.Name}" has changed to 
+{!LLC_BI__Loan__c.LLC_BI__Status__c}. If required, please login in at 
+your earliest convenience to take the appropriate next steps.
+<br>
+<br>Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+<br>
+<br>Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+<br>Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+<br>Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+<br>
+<br>Application Date: {!LLC_BI__Loan__c.Application_Date__c}
+<br>
+<br>Click Here for Full Loan Details: {!LLC_BI__Loan__c.Link}
+<br>
+<br>nCino<div><br></div><div style="text-align: right;">ET32</div>]]></td>
+</tr>
+</table>

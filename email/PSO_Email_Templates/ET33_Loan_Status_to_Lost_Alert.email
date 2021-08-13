@@ -1,0 +1,23 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Hello&nbsp;<span style="background-color: rgb(255, 255, 255);">{!Organization.Name}&nbsp;</span>Team Member, 
+<br>
+<br>Loan "{!LLC_BI__Loan__c.Name}"'s status has been changed to Lost.
+<br>
+<br>Lost to: {!LLC_BI__Loan__c.LLC_BI__Lost_To__c}
+<br>Lost Comments: {!LLC_BI__Loan__c.LLC_BI__Lost_Detail__c}
+<br>
+<br>Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c} 
+<br>
+<br>Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c} 
+<br>Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c} 
+<br>Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+<br>
+<br>Loan Officer: {!LLC_BI__Loan__c.LLC_BI__Loan_Officer__c}
+<br>
+<br>Click here for complete Loan Details: {!LLC_BI__Loan__c.Link}
+<br>
+<br>nCino<div><br></div><div style="text-align: right;">ET33</div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used when a loan&apos;s stage changes. Note that this is NOT for use with Loan Team Members. Generic alert will apply to any stage change</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>ET31 - Loan Stage Change (generic)</name>
+    <style>freeForm</style>
+    <subject>*** Stage of Loan &quot;{!LLC_BI__Loan__c.Name}&quot; has changed to {!LLC_BI__Loan__c.LLC_BI__Stage__c} ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+The stage of Loan &quot;{!LLC_BI__Loan__c.Name}&quot; has changed to {!LLC_BI__Loan__c.LLC_BI__Stage__c}. If required, please login in at your earliest convenience to take the appropriate next steps.
+
+Amount: {!LLC_BI__Loan__c.LLC_BI__Amount__c}
+
+Product Line: {!LLC_BI__Loan__c.LLC_BI__Product_Line__c}
+Product Type: {!LLC_BI__Loan__c.LLC_BI__Product_Type__c}
+Product: {!LLC_BI__Loan__c.LLC_BI__Product__c}
+
+Application Date: {!LLC_BI__Loan__c.Application_Date__c}
+
+Click Here for Full Loan Details: {!LLC_BI__Loan__c.Link}
+
+nCino
+
+ET31</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
