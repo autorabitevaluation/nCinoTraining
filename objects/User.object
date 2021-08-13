@@ -366,6 +366,254 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>UBLOS_Branch__c</fullName>
+        <externalId>false</externalId>
+        <label>Branch</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UBLOS_Market__c</fullName>
+        <externalId>false</externalId>
+        <label>Market</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Arlington - Alexandria VA</fullName>
+                    <default>false</default>
+                    <label>Arlington - Alexandria VA</label>
+                </value>
+                <value>
+                    <fullName>Brunswick NC</fullName>
+                    <default>false</default>
+                    <label>Brunswick NC</label>
+                </value>
+                <value>
+                    <fullName>Cabell - Wayne WV</fullName>
+                    <default>false</default>
+                    <label>Cabell - Wayne WV</label>
+                </value>
+                <value>
+                    <fullName>Capital WV</fullName>
+                    <default>false</default>
+                    <label>Capital WV</label>
+                </value>
+                <value>
+                    <fullName>Charleston SC</fullName>
+                    <default>false</default>
+                    <label>Charleston SC</label>
+                </value>
+                <value>
+                    <fullName>Charlotte NC</fullName>
+                    <default>false</default>
+                    <label>Charlotte NC</label>
+                </value>
+                <value>
+                    <fullName>Charlottesville VA</fullName>
+                    <default>false</default>
+                    <label>Charlottesville VA</label>
+                </value>
+                <value>
+                    <fullName>Coastal East NC</fullName>
+                    <default>false</default>
+                    <label>Coastal East NC</label>
+                </value>
+                <value>
+                    <fullName>Columbia SC</fullName>
+                    <default>false</default>
+                    <label>Columbia SC</label>
+                </value>
+                <value>
+                    <fullName>Eastern Panhandle WV</fullName>
+                    <default>false</default>
+                    <label>Eastern Panhandle WV</label>
+                </value>
+                <value>
+                    <fullName>Fairfax East VA</fullName>
+                    <default>false</default>
+                    <label>Fairfax East VA</label>
+                </value>
+                <value>
+                    <fullName>Fairfax West VA</fullName>
+                    <default>false</default>
+                    <label>Fairfax West VA</label>
+                </value>
+                <value>
+                    <fullName>Fayetteville - Lumberton NC</fullName>
+                    <default>false</default>
+                    <label>Fayetteville - Lumberton NC</label>
+                </value>
+                <value>
+                    <fullName>Gastonia NC</fullName>
+                    <default>false</default>
+                    <label>Gastonia NC</label>
+                </value>
+                <value>
+                    <fullName>Greenville North NC</fullName>
+                    <default>false</default>
+                    <label>Greenville North NC</label>
+                </value>
+                <value>
+                    <fullName>Greenville South SC</fullName>
+                    <default>false</default>
+                    <label>Greenville South SC</label>
+                </value>
+                <value>
+                    <fullName>Hagerstown MD</fullName>
+                    <default>false</default>
+                    <label>Hagerstown MD</label>
+                </value>
+                <value>
+                    <fullName>Harrisonburg VA</fullName>
+                    <default>false</default>
+                    <label>Harrisonburg VA</label>
+                </value>
+                <value>
+                    <fullName>Hickory NC</fullName>
+                    <default>false</default>
+                    <label>Hickory NC</label>
+                </value>
+                <value>
+                    <fullName>Jackson WV</fullName>
+                    <default>false</default>
+                    <label>Jackson WV</label>
+                </value>
+                <value>
+                    <fullName>Lake Wylie SC</fullName>
+                    <default>false</default>
+                    <label>Lake Wylie SC</label>
+                </value>
+                <value>
+                    <fullName>Lincolnton NC</fullName>
+                    <default>false</default>
+                    <label>Lincolnton NC</label>
+                </value>
+                <value>
+                    <fullName>Mooresville NC</fullName>
+                    <default>false</default>
+                    <label>Mooresville NC</label>
+                </value>
+                <value>
+                    <fullName>Morgantown WV</fullName>
+                    <default>false</default>
+                    <label>Morgantown WV</label>
+                </value>
+                <value>
+                    <fullName>Myrtle Beach SC</fullName>
+                    <default>false</default>
+                    <label>Myrtle Beach SC</label>
+                </value>
+                <value>
+                    <fullName>Northern Panhandle WV</fullName>
+                    <default>false</default>
+                    <label>Northern Panhandle WV</label>
+                </value>
+                <value>
+                    <fullName>Pennsylvania</fullName>
+                    <default>false</default>
+                    <label>Pennsylvania</label>
+                </value>
+                <value>
+                    <fullName>PWC - Stafford - Fredericksburg VA</fullName>
+                    <default>false</default>
+                    <label>PWC - Stafford - Fredericksburg VA</label>
+                </value>
+                <value>
+                    <fullName>Raleigh - Durham NC</fullName>
+                    <default>false</default>
+                    <label>Raleigh - Durham NC</label>
+                </value>
+                <value>
+                    <fullName>Satellite Georgia</fullName>
+                    <default>false</default>
+                    <label>Satellite Georgia</label>
+                </value>
+                <value>
+                    <fullName>Satellite TN</fullName>
+                    <default>false</default>
+                    <label>Satellite TN</label>
+                </value>
+                <value>
+                    <fullName>South WV</fullName>
+                    <default>false</default>
+                    <label>South WV</label>
+                </value>
+                <value>
+                    <fullName>Suburban MD</fullName>
+                    <default>false</default>
+                    <label>Suburban MD</label>
+                </value>
+                <value>
+                    <fullName>Washington DC</fullName>
+                    <default>false</default>
+                    <label>Washington DC</label>
+                </value>
+                <value>
+                    <fullName>Wilmington NC</fullName>
+                    <default>false</default>
+                    <label>Wilmington NC</label>
+                </value>
+                <value>
+                    <fullName>Winchester VA</fullName>
+                    <default>false</default>
+                    <label>Winchester VA</label>
+                </value>
+                <value>
+                    <fullName>Wood WV</fullName>
+                    <default>false</default>
+                    <label>Wood WV</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>UBLOS_Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Central</fullName>
+                    <default>false</default>
+                    <label>Central</label>
+                </value>
+                <value>
+                    <fullName>East</fullName>
+                    <default>false</default>
+                    <label>East</label>
+                </value>
+                <value>
+                    <fullName>North</fullName>
+                    <default>false</default>
+                    <label>North</label>
+                </value>
+                <value>
+                    <fullName>South</fullName>
+                    <default>false</default>
+                    <label>South</label>
+                </value>
+                <value>
+                    <fullName>West</fullName>
+                    <default>false</default>
+                    <label>West</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>nBIDCA__nCino_Data_User2__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>

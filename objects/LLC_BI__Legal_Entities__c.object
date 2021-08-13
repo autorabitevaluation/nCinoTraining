@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Burn_Down_Amount__c</fullName>
+        <description>Burn down dollar amount</description>
+        <externalId>false</externalId>
+        <label>Burn Down Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Burn_Down_Percentage__c</fullName>
+        <description>Burn Down Rate</description>
+        <externalId>false</externalId>
+        <label>Burn Down Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Burn_Down_Type__c</fullName>
+        <description>Type of burn down rate</description>
+        <externalId>false</externalId>
+        <label>Burn Down Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Percentage</fullName>
+                    <default>false</default>
+                    <label>Percentage</label>
+                </value>
+                <value>
+                    <fullName>Commitment Amount</fullName>
+                    <default>false</default>
+                    <label>Commitment Amount</label>
+                </value>
+                <value>
+                    <fullName>Outstanding Amount</fullName>
+                    <default>false</default>
+                    <label>Outstanding Amount</label>
+                </value>
+                <value>
+                    <fullName>Custom</fullName>
+                    <default>false</default>
+                    <label>Custom</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

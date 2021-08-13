@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use when a Covenant Compliance Waiver is submitted for Approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nCino_Email_Letterhead</letterhead>
+    <name>Covenant Compliance Waiver Request</name>
+    <style>freeForm</style>
+    <subject>COMMERCIAL CONNECT: Covenant Compliance 1-Time Waiver Request</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+The status on Covenant {!LLC_BI__Covenant__c.Name} has been updated to {!LLC_BI__Covenant_Compliance__c.LLC_BI__Status__c}.
+
+Loan: {!LLC_BI__Covenant__c.LLC_BI__Loan__c}
+Relationship: {!LLC_BI__Covenant__c.LLC_BI__Account__c}
+
+Click here for Covenant Details:
+{!LLC_BI__Covenant__c.Link}
+
+Covenant Compliance Comments:
+{!LLC_BI__Covenant_Compliance__c.LLC_BI__Comments__c}
+
+nCino
+
+ET12</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Owner_Occupied</fullName>
+        <categories>Collateral</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Owner_Occupied</shortDescription>
+        <value>Owner Occupied over 51%</value>
+    </labels>
+</CustomLabels>
