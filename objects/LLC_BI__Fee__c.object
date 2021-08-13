@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Commitment_Note_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Commitment/Note Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Commitment Level</fullName>
+                    <default>false</default>
+                    <label>Commitment Level</label>
+                </value>
+                <value>
+                    <fullName>Note Level</fullName>
+                    <default>false</default>
+                    <label>Note Level</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Deduct_from_Good_Faith_Deposit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Deduct from Good Faith Deposit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>
